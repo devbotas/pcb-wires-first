@@ -499,20 +499,20 @@
         "wire_width": 6
       },
       {
-        "name": "hv-power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "tuning_profile": "",
-        "wire_width": 12
-      },
-      {
-        "name": "lv-power",
+        "name": "1A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
+        "tuning_profile": "",
+        "wire_width": 12
+      },
+      {
+        "name": "4A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
         "tuning_profile": "",
         "wire_width": 12
       }
@@ -524,12 +524,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "hv-power",
+        "netclass": "4A",
         "pattern": "HV-*"
       },
       {
-        "netclass": "hv-power",
+        "netclass": "4A",
         "pattern": "/hv-*"
+      },
+      {
+        "netclass": "1A",
+        "pattern": "/output-*"
       }
     ]
   },
@@ -661,7 +665,7 @@
         "uuid": "2155cca2-5ec1-4d94-9553-ebcda519e5b5"
       }
     ],
-    "used_designators": "#FLG1-4,L1,#PWR2,#PWR20,NT1-3,R5,C1,C17-18,D5,H1-4",
+    "used_designators": "#FLG1-4,L1,#PWR2,#PWR20-21,NT1-3,R5,C1,C17-18,D5,H1-4",
     "variants": []
   },
   "sheets": [
