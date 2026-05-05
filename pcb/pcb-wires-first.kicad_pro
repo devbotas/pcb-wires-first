@@ -497,6 +497,24 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "hv-power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "wire_width": 12
+      },
+      {
+        "name": "lv-power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -504,7 +522,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "hv-power",
+        "pattern": "HV-*"
+      },
+      {
+        "netclass": "hv-power",
+        "pattern": "/hv-*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -634,7 +661,7 @@
         "uuid": "2155cca2-5ec1-4d94-9553-ebcda519e5b5"
       }
     ],
-    "used_designators": "#PWR20,NT1-2,R5,D5,H1-4",
+    "used_designators": "L1,#PWR20,NT1-2,R5,C1,C17-18,D5,H1-4",
     "variants": []
   },
   "sheets": [
