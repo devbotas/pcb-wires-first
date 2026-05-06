@@ -6556,7 +6556,7 @@
 			)
 		)
 	)
-	(global_label "switch-3"
+	(global_label "fault"
 		(shape input)
 		(at 290.83 210.82 90)
 		(fields_autoplaced yes)
@@ -6568,7 +6568,7 @@
 		)
 		(uuid "e3d3a933-7b1f-4ddc-8526-3230633c6937")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.83 199.1262 90)
+			(at 290.83 203.4202 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
