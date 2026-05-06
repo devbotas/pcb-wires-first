@@ -1896,6 +1896,7 @@
 			(net "3V3")
 			(pinfunction "V_{DD}_1")
 			(pintype "power_in")
+			(clearance 0.19)
 			(uuid "047297d6-3094-47f4-a610-3c9a76f74d2a")
 		)
 		(pad "2" smd roundrect
@@ -1946,6 +1947,7 @@
 			(net "HV-VDD")
 			(pinfunction "V_{DD2A}_6")
 			(pintype "power_in")
+			(clearance 0.19)
 			(uuid "8d6b6697-1323-4bda-bf58-7ded141cc055")
 		)
 		(pad "7" smd roundrect
@@ -1996,6 +1998,7 @@
 			(net "HV-VDD")
 			(pinfunction "V_{DD2B}_11")
 			(pintype "power_in")
+			(clearance 0.19)
 			(uuid "b4c1530e-8cab-4b0a-bac3-3b40c1a2b280")
 		)
 		(pad "12" smd roundrect
@@ -2046,6 +2049,7 @@
 			(net "unconnected-(U2-SDA-Pad16)")
 			(pinfunction "SDA_16")
 			(pintype "bidirectional+no_connect")
+			(clearance 0.19)
 			(uuid "18518f98-e071-4dfd-a63b-5fa18db08b85")
 		)
 		(pad "17" smd roundrect
@@ -11134,6 +11138,7 @@
 			(net "3V3")
 			(pinfunction "V_{DD}_1")
 			(pintype "power_in")
+			(clearance 0.19)
 			(uuid "ef544a80-ff57-4011-b1f8-b97e0ed7575c")
 		)
 		(pad "2" smd roundrect
@@ -11184,6 +11189,7 @@
 			(net "/on-2a")
 			(pinfunction "IO4_6")
 			(pintype "bidirectional")
+			(clearance 0.19)
 			(uuid "58ed85e5-fef3-46f7-b5c5-446c30d38117")
 		)
 		(pad "7" smd roundrect
@@ -11234,6 +11240,7 @@
 			(net "GND")
 			(pinfunction "GND_11")
 			(pintype "power_in")
+			(clearance 0.19)
 			(uuid "093df8a8-2942-4708-9686-7298376bbc43")
 		)
 		(pad "12" smd roundrect
@@ -11284,6 +11291,7 @@
 			(net "switch-3")
 			(pinfunction "IO10_16")
 			(pintype "bidirectional")
+			(clearance 0.19)
 			(uuid "27dc4b78-5706-45c3-8748-4c1fd9255769")
 		)
 		(pad "17" smd roundrect
