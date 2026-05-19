@@ -16,6 +16,6 @@ Put the analog wires first! So that light switches continue to operate even if s
 
 This is a draft for a lights controller.
 
-![assets/0.1.0.png]
+![](assets/0.1.0.png)
 
 Every output has four inputs: two ONs and two OFFs. Initial idea is to use one pair for physical switch, and one pair for the Arduino software-based control, but technically they are identical. I'm using Renesas GreenPAK SPLDs to ensure deadlock-free operation, in case the are conflicting inputs.
