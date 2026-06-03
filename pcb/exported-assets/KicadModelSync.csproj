@@ -7,6 +7,7 @@
     <AssemblyName>KicadModelSync</AssemblyName>
     <RootNamespace>KicadModelSync</RootNamespace>
     <PublishSingleFile>false</PublishSingleFile>
+    <NoWarn>CA1303;CA1031</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="devbotas.Tools.RepositorySettings" Version="1.13.0">
