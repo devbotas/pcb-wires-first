@@ -8031,7 +8031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-FB-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 			(at 196.85 146.05 0)
 			(hide yes)
 			(show_name no)

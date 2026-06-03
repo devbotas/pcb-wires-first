@@ -154,6 +154,12 @@
 		(path "/3fc1e1eb-ec30-4488-92d7-c5a6647def36")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -335,6 +341,12 @@
 		(path "/b0c11d36-accf-4120-b74c-47e01f9df1e7")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -479,6 +491,15 @@
 		(path "/38f1cd04-abfc-4b3e-8251-9e69533a2e98")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "30" "2" "1" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
+					"16" "4" "29" "17" "27" "3" "18" "28" "19" "20" "21" "22" "23" "24"
+					"25" "26"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1223,6 +1244,12 @@
 		(path "/f42b7212-0636-481d-bc80-73a847a930d9")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1375,6 +1402,12 @@
 		(path "/b1bb39c6-edc0-487a-8c3b-f63429302eda")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1621,6 +1654,14 @@
 		(path "/e0d67e22-cbf0-47ca-b369-7b9dadce0fb3")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "17" "19" "20" "3" "5" "12" "1" "18" "6" "4" "11" "13"
+					"16" "15" "7" "8" "9" "10"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2197,6 +2238,12 @@
 		(path "/9d312efa-be2f-4a12-93ba-7fc6e6d2d4df")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2494,6 +2541,12 @@
 		(path "/ffaea1f3-71d9-44d2-9615-de503225b362")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2659,6 +2712,12 @@
 		(path "/2211ab3d-b98e-4c1e-b028-4fa528ec8ab4")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2862,6 +2921,12 @@
 		(path "/8918ba41-5cb6-4480-bc8b-2b96141d0a9c")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3014,6 +3079,12 @@
 		(path "/2c54b040-8644-4f13-ad0d-65447de6d97b")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3166,6 +3237,12 @@
 		(path "/72688b89-9603-4730-9db9-e0e1cffaa2c8")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3318,6 +3395,12 @@
 		(path "/5fc0751d-e936-4e5b-94b3-6a69a14d9466")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3483,6 +3566,12 @@
 		(path "/cb938d8c-74bf-40bc-95df-c039dc921a2a")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3691,6 +3780,12 @@
 		(path "/45b1c805-bae6-46a7-869d-255e6e58a860")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4100,6 +4195,12 @@
 		(path "/868fc1d2-5b53-43b0-912e-fbe037c2c492")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4352,6 +4453,12 @@
 		(path "/612235bb-53f5-4d67-b7be-63ea7f9944d3")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4613,6 +4720,12 @@
 		(path "/6f3cd67f-d25c-4682-9da3-50edf2076831")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4910,6 +5023,12 @@
 		(path "/714f5da1-d356-45ee-800d-31304688bfa9")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5062,6 +5181,12 @@
 		(path "/c112fd13-4f6a-478f-a707-ed3834642e31")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5227,6 +5352,12 @@
 		(path "/0a3c78b0-04d5-41e1-9f7d-271ec64522fc")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5430,6 +5561,12 @@
 		(path "/95ac0361-ad17-4ca4-9f26-16a329e59f3d")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5582,6 +5719,12 @@
 		(path "/9c2854f7-93e4-41f3-a567-e4609c5dbc06")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5734,6 +5877,12 @@
 		(path "/50f269e1-3e72-456d-a816-ef9c25e2a6d8")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5877,6 +6026,12 @@
 		(path "/c9598ab2-5da3-4138-bb4c-eb575bb8e5fd")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6138,6 +6293,12 @@
 		(path "/da62bbfc-ee7d-4027-967d-9e4f41ab6da9")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6912,6 +7073,12 @@
 		(path "/dec4a9c1-16c0-4bbd-9b48-d1fc38cff35d")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7065,6 +7232,12 @@
 		(path "/ba90e2d3-0301-41b8-8fa0-6f00fe49b55b")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7237,6 +7410,12 @@
 		(path "/70997829-0023-4b80-b6a6-369b66e9dfdc")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7511,6 +7690,12 @@
 		(path "/479a7069-efcc-415d-b0c7-a66c9cd38391")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7714,6 +7899,12 @@
 		(path "/8ab5b398-be38-44ce-afde-f5e055e6ad0c")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7866,6 +8057,12 @@
 		(path "/334a968f-859c-4394-9d4a-66f6c9a0422f")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8010,6 +8207,12 @@
 		(path "/6512bc60-1838-4364-923b-6534b969eca1")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8157,6 +8360,12 @@
 		(path "/4b29182e-01b6-4c32-a2db-50db72c39dcd")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8309,6 +8518,12 @@
 		(path "/603ddc59-aef5-41f7-879e-35f85d3fc94a")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8476,6 +8691,12 @@
 		(path "/a7073763-263c-4715-b73d-00cd99fb37e1")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8679,6 +8900,12 @@
 		(path "/70ceaa4c-e0ba-41bc-aa1d-ac8199b68f6d")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8831,6 +9058,12 @@
 		(path "/dec5c8ac-694e-413a-a91e-dd91f6fdcdc4")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9618,6 +9851,12 @@
 		(path "/06fe0278-9e9e-474f-939c-9008bf989ce9")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9812,6 +10051,12 @@
 		(path "/a3b8624c-073d-4c68-b5d1-227e0d48bbc7")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10073,6 +10318,12 @@
 		(path "/93047709-fa85-4462-b826-1ccdaf08278e")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10225,6 +10476,12 @@
 		(path "/7aee1092-019f-4fc8-8d4c-44e823a9a420")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10514,6 +10771,12 @@
 		(path "/f52797b3-db85-46ba-a610-dcdb98f24f1e")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10722,6 +10985,12 @@
 		(path "/2b969b2b-b6bc-454e-8d67-3d1697016b49")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10874,6 +11143,12 @@
 		(path "/d5c8de02-5e43-455e-a2e7-c4ea9b3eb3ca")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11026,6 +11301,14 @@
 		(path "/e751e27a-83b3-477c-86c0-ba9ea2ca4f7f")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "4" "5" "6" "7" "10" "12" "1" "11" "14" "13" "15" "16"
+					"17" "18" "19" "20" "9" "8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11602,6 +11885,12 @@
 		(path "/fdfb8374-1374-4c0b-b67d-20e90a676aff")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11754,6 +12043,12 @@
 		(path "/6c09f921-54dc-4b19-b4af-e98cb77a2991")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11840,14 +12135,14 @@
 			)
 		)
 	)
-	(footprint "Connector_JST:JST_VH_B2P-VH-FB-B_1x02_P3.96mm_Vertical"
+	(footprint "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c7147c9f-7346-4270-b1ba-687fe2fed17b")
 		(at 162.15 97.7625 90)
-		(descr "JST VH series connector, B2P-VH-FB-B, shrouded (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
+		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
 		(property "Reference" "J4"
-			(at 8.2625 -0.15 180)
+			(at 1.98 -4.9 90)
 			(layer "F.SilkS")
 			(uuid "35306c37-93ae-4c47-a2df-243ffb63782a")
 			(effects
@@ -11858,7 +12153,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 1.98 6.4 90)
+			(at 1.98 6 90)
 			(layer "F.Fab")
 			(uuid "1e0ff34e-1c01-479e-af8e-0f31708ac84d")
 			(effects
@@ -11906,51 +12201,17 @@
 		(path "/1ed29efb-cb39-45e4-b68d-024655941e77")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 6.99 -4.61)
-			(end 6.99 5.31)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "734c0685-e525-45ed-b84c-2c06fdc02314")
-		)
-		(fp_line
-			(start 3.87 -4.61)
-			(end 6.99 -4.61)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e3e6c9d3-f4cc-497c-8cc4-2fe4d3e69132")
-		)
-		(fp_line
-			(start 0.09 -4.61)
-			(end 0.09 -3.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cda8b856-787d-436a-8712-9803e6ad7ece")
-		)
-		(fp_line
-			(start -3.03 -4.61)
-			(end 0.09 -4.61)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "18ceefad-717d-403a-a598-6d281153969c")
-		)
-		(fp_line
-			(start 3.87 -3.41)
-			(end 3.87 -4.61)
+			(start 4.82 -3.81)
+			(end 4.82 -2.11)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11959,18 +12220,18 @@
 			(uuid "1f04034c-da00-4d4a-9c3c-3e483dd37d55")
 		)
 		(fp_line
-			(start 0.09 -3.41)
-			(end 3.87 -3.41)
+			(start -0.86 -3.81)
+			(end 4.82 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4cc1e0fd-b52e-4fc5-9332-64a35af511c3")
+			(uuid "734c0685-e525-45ed-b84c-2c06fdc02314")
 		)
 		(fp_line
-			(start -3.83 -0.3)
-			(end -3.23 0)
+			(start 6.02 -2.11)
+			(end 6.02 4.91)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11979,18 +12240,18 @@
 			(uuid "a4907ca2-a718-4001-af55-04cc6dda000f")
 		)
 		(fp_line
-			(start -3.23 0)
-			(end -3.83 0.3)
+			(start 4.82 -2.11)
+			(end 6.02 -2.11)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cb297ee1-d50b-491a-a80e-739e69270630")
+			(uuid "4cc1e0fd-b52e-4fc5-9332-64a35af511c3")
 		)
 		(fp_line
-			(start -3.83 0.3)
-			(end -3.83 -0.3)
+			(start -0.86 -2.11)
+			(end -0.86 -3.81)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11999,8 +12260,18 @@
 			(uuid "54ac3db4-f8cb-48e6-886c-0b1deeb428b1")
 		)
 		(fp_line
-			(start 6.99 5.31)
-			(end -3.03 5.31)
+			(start -2.06 -2.11)
+			(end -0.86 -2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e3e6c9d3-f4cc-497c-8cc4-2fe4d3e69132")
+		)
+		(fp_line
+			(start -2.86 -0.3)
+			(end -2.26 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12009,8 +12280,18 @@
 			(uuid "5ad28865-d570-49af-9b77-1d3ccf5f86be")
 		)
 		(fp_line
-			(start -3.03 5.31)
-			(end -3.03 -4.61)
+			(start -2.26 0)
+			(end -2.86 0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb297ee1-d50b-491a-a80e-739e69270630")
+		)
+		(fp_line
+			(start -2.86 0.3)
+			(end -2.86 -0.3)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12018,9 +12299,29 @@
 			(layer "F.SilkS")
 			(uuid "0ece18ea-6a62-4777-bb39-de13923bda0e")
 		)
+		(fp_line
+			(start 6.02 4.91)
+			(end -2.06 4.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "18ceefad-717d-403a-a598-6d281153969c")
+		)
+		(fp_line
+			(start -2.06 4.91)
+			(end -2.06 -2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cda8b856-787d-436a-8712-9803e6ad7ece")
+		)
 		(fp_rect
-			(start -3.43 -5)
-			(end 7.39 5.7)
+			(start -2.45 -4.2)
+			(end 6.41 5.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -12030,48 +12331,8 @@
 			(uuid "73e510d6-15b2-43cf-a662-3d15379b0cfe")
 		)
 		(fp_line
-			(start 6.88 -4.5)
-			(end 6.88 5.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "28b8449b-1be9-4c93-aa36-a8b0d82571bb")
-		)
-		(fp_line
-			(start 3.98 -4.5)
-			(end 6.88 -4.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c1dcbdd3-99b7-4513-94a9-eab83f25a0f6")
-		)
-		(fp_line
-			(start -0.02 -4.5)
-			(end -0.02 -3.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8170e550-b3d9-498c-b549-a74b2c7bfe7c")
-		)
-		(fp_line
-			(start -2.92 -4.5)
-			(end -0.02 -4.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8d0f64a7-6231-4900-9cf1-1340c5825f6b")
-		)
-		(fp_line
-			(start 3.98 -3.3)
-			(end 3.98 -4.5)
+			(start 4.71 -3.7)
+			(end 4.71 -2)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12080,38 +12341,8 @@
 			(uuid "834004d9-2ffa-40f7-81bb-76881c961c90")
 		)
 		(fp_line
-			(start -0.02 -3.3)
-			(end 3.98 -3.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7ec62c9c-8bd1-43ee-a1d1-60ac38ce1c23")
-		)
-		(fp_line
-			(start -2.92 -1)
-			(end -1.92 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bc931be9-ae81-4f5a-989c-356997c12a68")
-		)
-		(fp_line
-			(start -2.92 1)
-			(end -1.92 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e2d9c43f-e79f-49fe-8cde-be0702141ce6")
-		)
-		(fp_line
-			(start 6.88 5.2)
-			(end -2.92 5.2)
+			(start -0.75 -3.7)
+			(end 4.71 -3.7)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12120,18 +12351,38 @@
 			(uuid "ae52d49e-a2d9-4afa-b5e8-9fb75a3600f9")
 		)
 		(fp_line
-			(start -2.92 5.2)
-			(end -2.92 -4.5)
+			(start -0.75 -2)
+			(end -0.75 -3.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "efc39668-14c5-43f2-a2c6-64d62e99613d")
+			(uuid "7ec62c9c-8bd1-43ee-a1d1-60ac38ce1c23")
+		)
+		(fp_line
+			(start -1.95 -1)
+			(end -0.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bc931be9-ae81-4f5a-989c-356997c12a68")
+		)
+		(fp_line
+			(start -1.95 1)
+			(end -0.95 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e2d9c43f-e79f-49fe-8cde-be0702141ce6")
 		)
 		(fp_rect
-			(start -2 -2.1)
-			(end 5.96 4.3)
+			(start -1.95 -2)
+			(end 5.91 4.8)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12141,7 +12392,7 @@
 			(uuid "d06954d9-2859-4093-ae07-5bf3730fe84b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.98 2.5 90)
+			(at 1.98 4.1 90)
 			(layer "F.Fab")
 			(uuid "f8d61ece-9309-46c8-b97a-9836b0883265")
 			(effects
@@ -12150,13 +12401,6 @@
 					(thickness 0.15)
 				)
 			)
-		)
-		(pad "" np_thru_hole circle
-			(at -1.5 -3.4 90)
-			(size 1.45 1.45)
-			(drill 1.45)
-			(layers "*.Cu" "*.Mask")
-			(uuid "54140a16-5709-452a-8b97-1ae7cb62a828")
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 90)
@@ -12182,7 +12426,7 @@
 			(uuid "f08738d2-7785-4907-9d69-73e5efbbb41a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_VH_B2P-VH-FB-B_1x02_P3.96mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_VH_B2P-VH_1x02_P3.96mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12260,6 +12504,12 @@
 		(path "/2735f5a9-ce00-4618-ad8c-e9972d4902aa")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12564,6 +12814,12 @@
 		(path "/5003d1d2-c488-4d60-95e7-e6ded04c3445")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -12745,6 +13001,12 @@
 		(path "/75a0d512-0c5b-4e45-9694-9f41edb6206e")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12889,6 +13151,12 @@
 		(path "/7055e109-42ac-479d-bae0-7ee187d3f27f")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13036,6 +13304,12 @@
 		(path "/5732a982-0957-422e-a774-877ebb697539")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13179,6 +13453,12 @@
 		(path "/07882624-7a7d-46a8-bc2f-ed22f2eafade")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13432,6 +13712,12 @@
 		(path "/1dd6e5ec-2db5-4d7d-a256-dc8dae227042")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -13724,6 +14010,12 @@
 		(path "/b0831c49-f9b2-441f-b49a-0771fbe3376e")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -13905,6 +14197,12 @@
 		(path "/40ef85b3-c1ff-4af2-9ec2-18d719a531c9")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14671,6 +14969,12 @@
 		(path "/c469f740-0c15-4c09-aad1-2284decbdda4")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -14818,6 +15122,12 @@
 		(path "/05671281-6523-4730-870c-6c07354e4761")
 		(sheetname "/")
 		(sheetfile "pcb-wires-first.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
