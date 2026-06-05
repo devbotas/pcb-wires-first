@@ -3874,6 +3874,16 @@
 		)
 		(uuid "ea8ccf1a-c209-4366-9894-29f894812958")
 	)
+	(text "Issues. 1. Input connectors do not have GND. 2. IO6 and IO7 are GPO on 46826. 3. It is 47105, not 47115. 4. Add blinker LEDs to each SLG."
+		(exclude_from_sim no)
+		(at 273.05 215.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe8dc0d2-a006-4275-8777-0f1ebb968674")
+	)
 	(text_box "PSU"
 		(exclude_from_sim no)
 		(at 191.77 119.38 0)
