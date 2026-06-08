@@ -997,6 +997,32 @@
 				)
 			)
 		)
+		(symbol "SLG47115V_0_1"
+			(polyline
+				(pts
+					(xy 15.24 -3.81) (xy 13.97 -3.81) (xy 13.97 -6.35) (xy 15.24 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -11.43) (xy 13.97 -11.43) (xy 13.97 -13.97) (xy 15.24 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "SLG47115V_1_1"
 			(rectangle
 				(start -15.24 17.78)
