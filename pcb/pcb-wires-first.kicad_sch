@@ -6366,7 +6366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "I2C"
 			(at 350.52 39.3701 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9106,8 +9106,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Blinker"
-			(at 177.292 61.468 0)
+		(property "Value" "BLINK"
+			(at 176.276 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10148,7 +10148,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ON2"
+		(property "Value" "OUT"
 			(at 238.506 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
