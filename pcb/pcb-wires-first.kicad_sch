@@ -3424,16 +3424,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Issues. 1. Input connectors do not have GND. 2. IO6 and IO7 are GPO on 46826. 3. It is 47105, not 47115. 4. Add blinker LEDs to each SLG. 5. Bigger power cap next to SLG."
-		(exclude_from_sim no)
-		(at 273.05 215.138 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fe8dc0d2-a006-4275-8777-0f1ebb968674")
-	)
 	(text_box "PSU"
 		(exclude_from_sim no)
 		(at 354.33 115.57 0)
@@ -3785,10 +3775,6 @@
 		(uuid "0ab64361-98bd-440c-b073-d8ae8c9a2509")
 	)
 	(no_connect
-		(at 45.72 74.93)
-		(uuid "350381d5-c84d-49d5-91d8-54ce8e5f3ded")
-	)
-	(no_connect
 		(at 81.28 82.55)
 		(uuid "3ee18897-2598-4f67-8b67-d68bb908a71d")
 	)
@@ -3853,6 +3839,16 @@
 			(type default)
 		)
 		(uuid "0453bd4d-c49d-48cb-9517-8e074d07817b")
+	)
+	(wire
+		(pts
+			(xy 36.83 92.71) (xy 36.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cdd39f-09e3-4469-bb24-03d6e45dab1c")
 	)
 	(wire
 		(pts
@@ -4216,6 +4212,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 74.93) (xy 45.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5128671a-fecb-4d75-b9fb-45c211a02401")
+	)
+	(wire
+		(pts
 			(xy 147.32 194.31) (xy 166.37 194.31)
 		)
 		(stroke
@@ -4463,6 +4469,16 @@
 			(type default)
 		)
 		(uuid "7d14e39e-b68e-4059-b7ba-7e9602f3ea1a")
+	)
+	(wire
+		(pts
+			(xy 36.83 76.2) (xy 36.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f57058d-9251-4c59-9ec8-db3d3c4940e6")
 	)
 	(wire
 		(pts
@@ -5173,6 +5189,16 @@
 			(type default)
 		)
 		(uuid "e3cc4bc0-6f6e-4a82-8eca-5d8f94643cf1")
+	)
+	(wire
+		(pts
+			(xy 36.83 83.82) (xy 36.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f12221-dbb3-4b25-8866-95cf441af7e9")
 	)
 	(wire
 		(pts
@@ -6061,6 +6087,98 @@
 			(project "pcb-wires-first"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 36.83 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ffb6f5a-fb9f-4b7c-b3a0-7e06754e4f68")
+		(property "Reference" "D7"
+			(at 39.624 88.138 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3"
+			(at 40.64 91.7574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 36.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 36.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31c88fd5-b360-4378-8f6e-c6c4954a9526")
+		)
+		(pin "2"
+			(uuid "752185a5-ceca-446c-8355-815340def966")
+		)
+		(instances
+			(project "pcb-wires-first"
+				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8081,6 +8199,84 @@
 			(project "pcb-wires-first"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74c1bb9e-db12-4dff-a754-2f936f51ea3c")
+		(property "Reference" "#PWR06"
+			(at 36.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f624eb5-ef23-4b81-8390-fd2a510123e9")
+		)
+		(instances
+			(project "pcb-wires-first"
+				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10391,6 +10587,88 @@
 			(project "pcb-wires-first"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee5da933-daa8-416a-93c4-798e0e7b2f76")
+		(property "Reference" "R9"
+			(at 39.37 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 39.37 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.052 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f74360d-eb22-4b6c-b49b-01acd8846885")
+		)
+		(pin "2"
+			(uuid "b0b248ea-1b62-44ee-811e-97b3e8feaeca")
+		)
+		(instances
+			(project "pcb-wires-first"
+				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
+					(reference "R9")
 					(unit 1)
 				)
 			)
