@@ -1001,7 +1001,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-D1{slash}TX-Pad1)")
 			(pinfunction "D1/TX_1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "9fbcade4-0a91-4dcf-9a08-3972b564cd7b")
 		)
 		(pad "2" thru_hole oval
@@ -1012,7 +1012,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-D0{slash}RX-Pad2)")
 			(pinfunction "D0/RX_2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b19aee1a-e481-4943-b169-a541585fea9b")
 		)
 		(pad "3" thru_hole oval
@@ -1045,7 +1045,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-D2-Pad5)")
 			(pinfunction "D2_5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f77d2507-b8c6-43b8-bf71-447ae3762bcd")
 		)
 		(pad "6" thru_hole oval
@@ -1056,7 +1056,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-D3-Pad6)")
 			(pinfunction "D3_6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5834502e-035a-44fe-99d9-b7df8d6618a4")
 		)
 		(pad "7" thru_hole oval
@@ -1067,7 +1067,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-D4-Pad7)")
 			(pinfunction "D4_7")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3fbeaa8d-a2df-440c-9837-125d24f9af29")
 		)
 		(pad "8" thru_hole oval
@@ -1078,7 +1078,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-D5-Pad8)")
 			(pinfunction "D5_8")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3aa540a1-5ca1-4871-9718-d9347684ee80")
 		)
 		(pad "9" thru_hole oval
@@ -1199,7 +1199,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-A0-Pad19)")
 			(pinfunction "A0_19")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3f0a071b-b6ff-47e8-b938-fc3ce74d27b5")
 		)
 		(pad "20" thru_hole oval
@@ -1210,7 +1210,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-A1-Pad20)")
 			(pinfunction "A1_20")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "39c5cf4f-923d-498e-a010-0575d0752700")
 		)
 		(pad "21" thru_hole oval
@@ -1221,7 +1221,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-A2-Pad21)")
 			(pinfunction "A2_21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "79077270-f359-474a-9dee-9a2f5ad56d48")
 		)
 		(pad "22" thru_hole oval
@@ -1232,7 +1232,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(A1-A3-Pad22)")
 			(pinfunction "A3_22")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5bde90e0-2e21-4ce1-9d9d-542a18f33da2")
 		)
 		(pad "23" thru_hole oval
@@ -2134,7 +2134,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U2-GPIO0-Pad2)")
 			(pinfunction "GPIO0_2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "0ceb0ce2-ce86-42ce-8ee3-bb983009e891")
 		)
 		(pad "3" smd roundrect
@@ -2164,7 +2164,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U2-SENSE1-Pad5)")
 			(pinfunction "SENSE1_5")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "1e7c6962-49de-40bb-819c-abddc767ba7b")
 		)
 		(pad "6" smd roundrect
@@ -2234,7 +2234,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U2-SENSE2-Pad12)")
 			(pinfunction "SENSE2_12")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "1b9ccb41-6162-4c2d-b23c-9e03b94a722c")
 		)
 		(pad "13" smd roundrect
