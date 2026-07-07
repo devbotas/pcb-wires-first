@@ -3565,6 +3565,12 @@
 		(uuid "22d710ae-777a-49f3-bc0f-49cc0ce1e201")
 	)
 	(junction
+		(at 133.35 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2953704a-2677-450a-a001-bc060b0bd780")
+	)
+	(junction
 		(at 99.06 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3695,12 +3701,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8224a23-55aa-4007-bea1-c50b0e9738ff")
-	)
-	(junction
-		(at 133.35 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9bc3114-a9d7-451b-8c75-c45aa7535243")
 	)
 	(junction
 		(at 292.1 86.36)
@@ -4086,7 +4086,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 226.06) (xy 133.35 248.92)
+			(xy 133.35 237.49) (xy 133.35 248.92)
 		)
 		(stroke
 			(width 0)
@@ -4266,7 +4266,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 217.17) (xy 133.35 218.44)
+			(xy 133.35 217.17) (xy 133.35 229.87)
 		)
 		(stroke
 			(width 0)
@@ -7120,7 +7120,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "reset"
+		(property "Value" "set"
 			(at 287.02 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8879,7 +8879,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 222.25 0)
+		(at 133.35 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8889,7 +8889,7 @@
 		(dnp no)
 		(uuid "93047709-fa85-4462-b826-1ccdaf08278e")
 		(property "Reference" "C18"
-			(at 132.08 227.33 90)
+			(at 132.08 238.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8900,7 +8900,7 @@
 			)
 		)
 		(property "Value" "4.7μF/16V"
-			(at 136.398 227.584 90)
+			(at 136.398 239.014 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8911,7 +8911,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 134.3152 226.06 0)
+			(at 134.3152 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,7 +8922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 222.25 0)
+			(at 133.35 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +8933,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 222.25 0)
+			(at 133.35 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9059,7 +9059,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "set"
+		(property "Value" "reset"
 			(at 274.32 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
