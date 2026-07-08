@@ -153,12 +153,6 @@
 		(path "/1e5a1ba4-9a74-40dc-baba-3188a78f2299")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -311,12 +305,6 @@
 		(path "/f693bad4-4454-4dbe-9299-a139c9432c2a")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -609,12 +597,6 @@
 		(path "/3fc1e1eb-ec30-4488-92d7-c5a6647def36")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -796,12 +778,6 @@
 		(path "/b0c11d36-accf-4120-b74c-47e01f9df1e7")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -954,14 +930,6 @@
 		(path "/e0d67e22-cbf0-47ca-b369-7b9dadce0fb3")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "14" "17" "19" "20" "3" "5" "12" "1" "18" "6" "4" "11" "13"
-					"16" "15" "7" "8" "9" "10"
-				)
-			)
-		)
 		(clearance 0.18)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -1573,12 +1541,6 @@
 		(path "/b6f5f60e-b6a6-4ed3-9f0a-6a126142accc")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
@@ -1680,12 +1642,6 @@
 		(path "/5fc0751d-e936-4e5b-94b3-6a69a14d9466")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1852,12 +1808,6 @@
 		(path "/cb938d8c-74bf-40bc-95df-c039dc921a2a")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2053,12 +2003,6 @@
 		(path "/9cd627a9-a5f4-4bec-9dad-7a6c3f6989f3")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2320,12 +2264,6 @@
 		(path "/6f3cd67f-d25c-4682-9da3-50edf2076831")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2623,12 +2561,6 @@
 		(path "/714f5da1-d356-45ee-800d-31304688bfa9")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2781,12 +2713,6 @@
 		(path "/c112fd13-4f6a-478f-a707-ed3834642e31")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2952,12 +2878,6 @@
 		(path "/0a3c78b0-04d5-41e1-9f7d-271ec64522fc")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3161,12 +3081,6 @@
 		(path "/fea2abbb-be9d-46dd-b3fc-28f795b4ed23")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3319,12 +3233,6 @@
 		(path "/9c2854f7-93e4-41f3-a567-e4609c5dbc06")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3477,12 +3385,6 @@
 		(path "/50f269e1-3e72-456d-a816-ef9c25e2a6d8")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3635,12 +3537,6 @@
 		(path "/eb70ebf0-545c-4d01-84b5-9aa9da3095e7")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3785,12 +3681,6 @@
 		(path "/4431a538-8dd6-4363-ae84-c722823b4a46")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4041,12 +3931,6 @@
 		(path "/ba90e2d3-0301-41b8-8fa0-6f00fe49b55b")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -4220,12 +4104,6 @@
 		(path "/81242d2a-94a7-4f37-a01c-5723e0b7b9c9")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4500,12 +4378,6 @@
 		(path "/479a7069-efcc-415d-b0c7-a66c9cd38391")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4709,12 +4581,6 @@
 		(path "/4b29182e-01b6-4c32-a2db-50db72c39dcd")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4880,12 +4746,6 @@
 		(path "/a7073763-263c-4715-b73d-00cd99fb37e1")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5103,12 +4963,6 @@
 		(path "/06fe0278-9e9e-474f-939c-9008bf989ce9")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5312,12 +5166,6 @@
 		(path "/93047709-fa85-4462-b826-1ccdaf08278e")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5463,12 +5311,6 @@
 		(path "/f52797b3-db85-46ba-a610-dcdb98f24f1e")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5677,12 +5519,6 @@
 		(path "/2b969b2b-b6bc-454e-8d67-3d1697016b49")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5829,12 +5665,6 @@
 		(path "/7e5fc883-98d0-447d-8f3f-b8bd1ac99930")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
@@ -5952,12 +5782,6 @@
 		(path "/6c09f921-54dc-4b19-b4af-e98cb77a2991")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6110,12 +5934,6 @@
 		(path "/1ed29efb-cb39-45e4-b68d-024655941e77")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6413,12 +6231,6 @@
 		(path "/2735f5a9-ce00-4618-ad8c-e9972d4902aa")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6711,12 +6523,6 @@
 		(path "/5003d1d2-c488-4d60-95e7-e6ded04c3445")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6887,12 +6693,6 @@
 		(path "/b0831c49-f9b2-441f-b49a-0771fbe3376e")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7074,12 +6874,6 @@
 		(path "/715f5cae-e792-4ade-93a0-739f9b195524")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7848,12 +7642,6 @@
 		(path "/2303272a-c51f-46e3-aa8d-d0c0b340edad")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
@@ -7953,12 +7741,6 @@
 		(path "/05efaae7-2e55-4301-bb15-73bb05db101a")
 		(sheetname "/")
 		(sheetfile "switcher.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
