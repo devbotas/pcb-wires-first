@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-20_2x3mm_P0.4mm_LayoutBorder4x6y"
+			(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-20_2x3mm_P0.4mm_SLG47115V"
 				(at -0.254 -35.56 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7915,7 +7915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-20_2x3mm_P0.4mm_LayoutBorder4x6y"
+		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-20_2x3mm_P0.4mm_SLG47115V"
 			(at 125.476 168.91 0)
 			(hide yes)
 			(show_name no)
