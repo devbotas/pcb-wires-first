@@ -571,7 +571,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.3,
         "tuning_profile": "",
         "wire_width": 12
       },
@@ -602,6 +602,10 @@
       {
         "netclass": "4A",
         "pattern": "/output-*"
+      },
+      {
+        "netclass": "1A",
+        "pattern": "3V3"
       }
     ]
   },
@@ -733,7 +737,7 @@
         "uuid": "2155cca2-5ec1-4d94-9553-ebcda519e5b5"
       }
     ],
-    "used_designators": "#FLG3,J9",
+    "used_designators": "U1,TP1,R1-7,SW1-3,NT1-4,H1-4,D1-5,C1-6,#PWR1-18,J1-5,J9,#FLG1-4",
     "variants": []
   },
   "sheets": [

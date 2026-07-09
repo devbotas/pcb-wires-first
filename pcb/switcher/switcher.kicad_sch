@@ -4009,7 +4009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05efaae7-2e55-4301-bb15-73bb05db101a")
-		(property "Reference" "NT3"
+		(property "Reference" "NT4"
 			(at 229.87 149.8599 90)
 			(hide yes)
 			(show_name no)
@@ -4075,7 +4075,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "NT3")
+					(reference "NT4")
 					(unit 1)
 				)
 			)
@@ -4092,7 +4092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06fe0278-9e9e-474f-939c-9008bf989ce9")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 231.394 142.748 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4167,7 +4167,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4276,7 +4276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e5a1ba4-9a74-40dc-baba-3188a78f2299")
-		(property "Reference" "C20"
+		(property "Reference" "C1"
 			(at 77.724 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +4341,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "C20")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4358,7 +4358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ed29efb-cb39-45e4-b68d-024655941e77")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 211.836 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,7 +4421,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2303272a-c51f-46e3-aa8d-d0c0b340edad")
-		(property "Reference" "NT2"
+		(property "Reference" "NT3"
 			(at 223.52 127 0)
 			(hide yes)
 			(show_name no)
@@ -4503,7 +4503,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "NT2")
+					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -4521,7 +4521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "266c4e71-fdc4-4778-8ae8-e84d1f8038fc")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR018"
 			(at 330.2 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4581,7 +4581,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR026")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4598,7 +4598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2735f5a9-ce00-4618-ad8c-e9972d4902aa")
-		(property "Reference" "J8"
+		(property "Reference" "J4"
 			(at 321.31 139.7001 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4668,7 +4668,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "J8")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4685,7 +4685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29157f7d-41d4-460a-b570-d5932cd6729a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR09"
 			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4746,7 +4746,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR015")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4763,7 +4763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b969b2b-b6bc-454e-8d67-3d1697016b49")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 343.154 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +4827,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4845,7 +4845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33810a73-5fae-4fa7-8254-27914df5417b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR012"
 			(at 218.44 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -4905,7 +4905,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR028")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4923,7 +4923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33fff25e-be4b-4c4c-a839-9335953a045f")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR04"
 			(at 88.9 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -4983,7 +4983,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR030")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5000,7 +5000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3af07124-fcf0-4a77-bafa-d2f7226f627d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR014"
 			(at 228.6 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5061,7 +5061,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR019")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4431a538-8dd6-4363-ae84-c722823b4a46")
-		(property "Reference" "SW8"
+		(property "Reference" "SW3"
 			(at 97.79 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5218,7 +5218,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "SW8")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5235,7 +5235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "479a7069-efcc-415d-b0c7-a66c9cd38391")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 95.504 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5310,7 +5310,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5327,7 +5327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b29182e-01b6-4c32-a2db-50db72c39dcd")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 101.346 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5389,7 +5389,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5406,7 +5406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d0d6f13-0e0c-4b3e-8720-941878faa12a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR010"
 			(at 130.81 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -5467,7 +5467,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR014")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5560,7 +5560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50f269e1-3e72-456d-a816-ef9c25e2a6d8")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 154.94 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5622,7 +5622,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5639,7 +5639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58fd776e-b1e8-4b94-90ad-88257de5a32e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR08"
 			(at 120.65 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5699,7 +5699,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR013")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5716,7 +5716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fc0751d-e936-4e5b-94b3-6a69a14d9466")
-		(property "Reference" "C14"
+		(property "Reference" "C4"
 			(at 115.316 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5778,7 +5778,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "C14")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5795,7 +5795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "614d472c-fc0e-4178-b3bf-cac7e6bfa1a9")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR015"
 			(at 254 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5856,7 +5856,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR021")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5873,7 +5873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c09f921-54dc-4b19-b4af-e98cb77a2991")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 335.534 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5937,7 +5937,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5955,7 +5955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f3cd67f-d25c-4682-9da3-50edf2076831")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 172.72 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6017,7 +6017,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6035,7 +6035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "714f5da1-d356-45ee-800d-31304688bfa9")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 231.14 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6099,7 +6099,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6116,7 +6116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "715f5cae-e792-4ade-93a0-739f9b195524")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 46.99 133.3501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,7 +6186,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6203,7 +6203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "757765c5-4c14-4bad-a172-400d53028413")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 120.65 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6264,7 +6264,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6281,7 +6281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e5fc883-98d0-447d-8f3f-b8bd1ac99930")
-		(property "Reference" "NT5"
+		(property "Reference" "NT2"
 			(at 156.21 162.5599 90)
 			(hide yes)
 			(show_name no)
@@ -6347,7 +6347,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "NT5")
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -6365,7 +6365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "804bc043-3a6c-464a-90fd-efe63ba03f49")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR017"
 			(at 330.2 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6426,7 +6426,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR027")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6443,7 +6443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81242d2a-94a7-4f37-a01c-5723e0b7b9c9")
-		(property "Reference" "SW9"
+		(property "Reference" "SW1"
 			(at 72.39 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6507,7 +6507,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "SW9")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6524,7 +6524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93047709-fa85-4462-b826-1ccdaf08278e")
-		(property "Reference" "C18"
+		(property "Reference" "C6"
 			(at 261.62 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +6588,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "C18")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6605,7 +6605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c2854f7-93e4-41f3-a567-e4609c5dbc06")
-		(property "Reference" "C16"
+		(property "Reference" "C5"
 			(at 135.89 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6667,7 +6667,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "C16")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6684,7 +6684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cd627a9-a5f4-4bec-9dad-7a6c3f6989f3")
-		(property "Reference" "SW7"
+		(property "Reference" "SW2"
 			(at 85.09 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6748,7 +6748,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "SW7")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6765,7 +6765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7073763-263c-4715-b73d-00cd99fb37e1")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 95.504 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,7 +6840,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6858,7 +6858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab046115-dac9-4815-981c-d3e80cafcbb7")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR01"
 			(at 55.88 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6918,7 +6918,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR034")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6936,7 +6936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae73f44f-12cd-411c-8a28-8f90bc9f71c8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR02"
 			(at 76.2 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6996,7 +6996,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR033")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7089,7 +7089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0c11d36-accf-4120-b74c-47e01f9df1e7")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 101.346 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7152,7 +7152,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7170,7 +7170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4884421-e825-4645-827a-1afcb0c53b88")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 110.49 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7230,7 +7230,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b672c13a-97ad-4a36-90db-39a12154a3a9")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR03"
 			(at 81.28 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7308,7 +7308,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR031")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7326,7 +7326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f5f60e-b6a6-4ed3-9f0a-6a126142accc")
-		(property "Reference" "NT4"
+		(property "Reference" "NT1"
 			(at 156.21 138.4299 90)
 			(hide yes)
 			(show_name no)
@@ -7392,7 +7392,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "NT4")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -7567,7 +7567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9cf026c-287b-4c99-8879-2fa958f92f70")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7628,7 +7628,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR018")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7645,7 +7645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb938d8c-74bf-40bc-95df-c039dc921a2a")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 157.734 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7720,7 +7720,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7816,7 +7816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de75c32e-94c5-4583-8d46-6a63edfa1c2f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 254 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7876,7 +7876,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR020")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7893,7 +7893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0d67e22-cbf0-47ca-b369-7b9dadce0fb3")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 110.236 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8011,7 +8011,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8028,7 +8028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb70ebf0-545c-4d01-84b5-9aa9da3095e7")
-		(property "Reference" "C19"
+		(property "Reference" "C2"
 			(at 90.424 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8093,7 +8093,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "C19")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8111,7 +8111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef9dbe03-acc5-4d23-9cc7-ce87a6dd9b9a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR011"
 			(at 142.24 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8172,7 +8172,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR017")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8269,7 +8269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f693bad4-4454-4dbe-9299-a139c9432c2a")
-		(property "Reference" "J9"
+		(property "Reference" "J5"
 			(at 375.92 139.7001 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8339,7 +8339,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "J9")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8513,7 +8513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc40e691-4d55-47f0-99c0-409f4f526855")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR05"
 			(at 101.6 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8573,7 +8573,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "#PWR032")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8590,7 +8590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fea2abbb-be9d-46dd-b3fc-28f795b4ed23")
-		(property "Reference" "C22"
+		(property "Reference" "C3"
 			(at 103.124 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8655,7 +8655,7 @@
 		(instances
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
-					(reference "C22")
+					(reference "C3")
 					(unit 1)
 				)
 			)
