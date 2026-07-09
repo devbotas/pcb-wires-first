@@ -269,7 +269,7 @@
 		(at 90.17 124.75)
 		(descr "DCDC-Converter, RECOM, RECOM_R-78E-0.5, SIP-3, pitch 2.54mm, package size 11.6x8.5x10.4mm^3, https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf")
 		(tags "dc-dc recom buck sip-3 pitch 2.54mm")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 2.4475 3.0425 0)
 			(layer "F.SilkS")
 			(uuid "a62f9d00-ea72-45e7-9c05-e424937262fc")
@@ -509,7 +509,7 @@
 		(at 108 122 90)
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 1.98 -4.9 90)
 			(layer "F.SilkS")
 			(uuid "57906723-ddc9-46ee-82e1-ea62110d7ad3")
@@ -812,7 +812,7 @@
 		(at 95.1175 114.5425 90)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C17"
+		(property "Reference" "C2"
 			(at -1 1.75 90)
 			(layer "F.SilkS")
 			(uuid "b71a50a6-a884-473e-a395-4ed3d0a4ce47")
@@ -958,7 +958,7 @@
 		(at 95.1175 109.5175 -90)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C15"
+		(property "Reference" "C1"
 			(at -2.0175 1.9175 90)
 			(layer "F.SilkS")
 			(uuid "cead0810-49cc-4eed-845c-a7a7b27290d5")
@@ -1533,7 +1533,7 @@
 		(at 80 115.5 90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
-		(property "Reference" "J9"
+		(property "Reference" "J7"
 			(at 11.5 3 180)
 			(layer "F.SilkS")
 			(uuid "4799284e-541f-4305-a829-10cb346fe8d6")
@@ -1544,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Value" "I2C"
+		(property "Value" "~"
 			(at 3.75 4.6 90)
 			(layer "F.Fab")
 			(uuid "88e4b92a-7f50-4538-bd39-47d8313c62a5")
@@ -1796,9 +1796,9 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J9-Pin_2-Pad2)")
+			(net "unconnected-(J7-Pin_2-Pad2)")
 			(pinfunction "Pin_2_2")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b7a0c733-ac40-4f47-a219-10bf5e2d4f2b")
 		)
 		(pad "3" thru_hole oval
@@ -1807,9 +1807,9 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J9-Pin_3-Pad3)")
+			(net "unconnected-(J7-Pin_3-Pad3)")
 			(pinfunction "Pin_3_3")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "70e0f2de-1fd6-4a96-9411-83f52588f2a7")
 		)
 		(pad "4" thru_hole oval
@@ -1842,7 +1842,7 @@
 		(at 92.33125 130.2)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at -5 0 0)
 			(layer "F.SilkS")
 			(uuid "a9e82d1c-36f3-4939-a946-cb177bc52cab")
@@ -1956,7 +1956,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(NT2-Pad1)")
+			(net "Net-(NT1-Pad1)")
 			(pintype "passive")
 			(uuid "ce428c0d-bb86-4cff-b844-442f7d6919f6")
 		)
@@ -1965,7 +1965,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D6-A)")
+			(net "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "03c6f0d3-7a43-4312-96b0-9a6f6921eee0")
 		)
@@ -1988,7 +1988,7 @@
 		(at 108 112 90)
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 7.5 -3.5 180)
 			(layer "F.SilkS")
 			(uuid "798375af-1f4a-46e8-bc7f-752892f47ce3")
@@ -2291,7 +2291,7 @@
 		(at 92.325 132.3)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at -5 0 0)
 			(layer "F.SilkS")
 			(uuid "a096bac4-b66e-4033-b883-e72b3414f079")
@@ -2405,7 +2405,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(NT4-Pad1)")
+			(net "Net-(NT3-Pad1)")
 			(pintype "passive")
 			(uuid "0c824e82-747c-456a-b490-a27ab2fe9611")
 		)
@@ -2414,7 +2414,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D5-A)")
+			(net "Net-(D2-A)")
 			(pintype "passive")
 			(uuid "36a3b46b-c4bc-4ca4-a22f-45a446cf3868")
 		)
@@ -2437,7 +2437,7 @@
 		(at 95.825 132.3 180)
 		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "diode")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 6 0 0)
 			(layer "F.SilkS")
 			(uuid "6aa708ee-3a8f-415e-97bd-8c4c94a7cc4d")
@@ -2623,7 +2623,7 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D5-A)")
+			(net "Net-(D2-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "9c77e4cc-4beb-4ad5-a056-61040ddd9630")
@@ -2823,7 +2823,7 @@
 		(at 95.83125 130.2 180)
 		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "diode")
-		(property "Reference" "D6"
+		(property "Reference" "D1"
 			(at 6 0 0)
 			(layer "F.SilkS")
 			(uuid "153b0e54-2b23-4bf5-ae5c-efbf52cd1974")
@@ -2999,7 +2999,7 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D6-K)")
+			(net "Net-(D1-K)")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "5896e706-e322-443d-8218-4754790572c6")
@@ -3009,7 +3009,7 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D6-A)")
+			(net "Net-(D1-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "dcebffc4-78e3-46b9-9300-b836955b09b6")
@@ -3033,7 +3033,7 @@
 		(at 81 120)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C18"
+		(property "Reference" "C3"
 			(at 3 0 0)
 			(layer "F.SilkS")
 			(uuid "1df9684a-4181-4db6-8c76-8ca328457329")
@@ -3386,7 +3386,7 @@
 		(at 107.95 132 90)
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 1.98 -4.9 90)
 			(layer "F.SilkS")
 			(uuid "714926ad-a0fb-4ad8-b220-bb298a727ec9")
@@ -3689,7 +3689,7 @@
 		(at 93 137.95)
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 7.0575 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "e79530c4-d3f5-412d-8f52-fdd367c8ab07")
@@ -3980,7 +3980,7 @@
 		(at 80 132 90)
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
-		(property "Reference" "J8"
+		(property "Reference" "J6"
 			(at -4 3 180)
 			(layer "F.SilkS")
 			(uuid "fa599aa4-2aff-4fc1-aa94-7689e7b92ec6")
@@ -3991,7 +3991,7 @@
 				)
 			)
 		)
-		(property "Value" "I2C"
+		(property "Value" "~"
 			(at 3.75 4.6 90)
 			(layer "F.Fab")
 			(uuid "fcfed04d-c088-42f2-a8ed-ae6e2271fd14")
@@ -4231,9 +4231,9 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J8-Pin_2-Pad2)")
+			(net "unconnected-(J6-Pin_2-Pad2)")
 			(pinfunction "Pin_2_2")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "80927d26-d379-47ae-bfa9-9bc7ce716571")
 		)
 		(pad "3" thru_hole oval
@@ -4242,9 +4242,9 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J8-Pin_3-Pad3)")
+			(net "unconnected-(J6-Pin_3-Pad3)")
 			(pinfunction "Pin_3_3")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "0c8bc995-5b59-4286-9395-a81e83eed66f")
 		)
 		(pad "4" thru_hole oval
@@ -4743,7 +4743,7 @@
 		(at 96.2575 102.05 180)
 		(descr "JST VH series connector, B2P-VH (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf)")
 		(tags "connector JST VH vertical")
-		(property "Reference" "J10"
+		(property "Reference" "J1"
 			(at -3.2425 -2.95 90)
 			(layer "F.SilkS")
 			(uuid "005d4d5a-8c5f-415d-92d1-95a941213a4e")
@@ -5222,7 +5222,7 @@
 		(at 88.7 127.5 90)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
-		(property "Reference" "NT2"
+		(property "Reference" "NT1"
 			(at 0 -1.2 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5301,7 +5301,7 @@
 			(at -0.5 0 90)
 			(size 0.5 0.5)
 			(layers "F.Cu")
-			(net "Net-(NT2-Pad1)")
+			(net "Net-(NT1-Pad1)")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "326c4bb8-1ce2-43eb-b9e1-10d99ae61cca")
@@ -5323,7 +5323,7 @@
 		(at 106 131 180)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
-		(property "Reference" "NT3"
+		(property "Reference" "NT2"
 			(at 0 1.2 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -5415,7 +5415,7 @@
 			(at 0.5 0 180)
 			(size 0.5 0.5)
 			(layers "B.Cu")
-			(net "Net-(D6-K)")
+			(net "Net-(D1-K)")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "4057ad03-84fb-45cf-9d34-1e2846c10cf2")
@@ -5428,7 +5428,7 @@
 		(at 95 126.5 90)
 		(descr "Net tie, 2 pin, 0.5mm square SMD pads")
 		(tags "net tie")
-		(property "Reference" "NT4"
+		(property "Reference" "NT3"
 			(at 0 1.2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -5511,7 +5511,7 @@
 			(at -0.5 0 90)
 			(size 0.5 0.5)
 			(layers "B.Cu")
-			(net "Net-(NT4-Pad1)")
+			(net "Net-(NT3-Pad1)")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "6ad8616a-0783-4a21-8d69-49a301011d5b")
@@ -6072,91 +6072,11 @@
 		(uuid "ec7ce73d-a9b6-4d99-8dcf-268ee9642960")
 	)
 	(segment
-		(start 88.7 128)
-		(end 88.7 129.1)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(NT2-Pad1)")
-		(uuid "96a44f55-1f89-482e-b690-54d1d8cbc821")
-	)
-	(segment
-		(start 88.7 129.1)
-		(end 89.8 130.2)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(NT2-Pad1)")
-		(uuid "f93ae991-ef74-465d-9e2f-11cf032d04d1")
-	)
-	(segment
-		(start 89.8 130.2)
-		(end 91.50625 130.2)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(NT2-Pad1)")
-		(uuid "ff808bfc-af46-4e4b-944d-e738690e9383")
-	)
-	(segment
-		(start 93.15625 130.2)
-		(end 95.04375 130.2)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D6-A)")
-		(uuid "f3d1d07a-4dbf-4183-9120-94845bf0565c")
-	)
-	(via
-		(at 91.5 132.3)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "Net-(NT4-Pad1)")
-		(uuid "7eddbb55-4231-46ce-9358-98400060efb6")
-	)
-	(segment
-		(start 91.5 130.5)
-		(end 91.5 132.3)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "Net-(NT4-Pad1)")
-		(uuid "2333b406-9edc-4f8a-9fda-d9a51045d23b")
-	)
-	(segment
-		(start 95 127)
-		(end 91.5 130.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "Net-(NT4-Pad1)")
-		(uuid "ce478b44-ff29-4bf6-ac5a-16fa1ab08bf9")
-	)
-	(segment
-		(start 94.8375 132.3)
-		(end 95.0375 132.1)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D5-A)")
-		(uuid "29a95caf-bbc8-47a6-9d1a-ccd685a9eaa7")
-	)
-	(segment
-		(start 93.15 132.1)
-		(end 93.35 132.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D5-A)")
-		(uuid "62dc45b0-2ceb-424c-b88f-4124aa4ed0a9")
-	)
-	(segment
-		(start 93.35 132.3)
-		(end 94.8375 132.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D5-A)")
-		(uuid "f0d779e1-3658-4547-9754-f27aaa495302")
-	)
-	(segment
 		(start 98.1 130.2)
 		(end 96.61875 130.2)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(D6-K)")
+		(net "Net-(D1-K)")
 		(uuid "29353d58-cfd4-42b8-b26a-11de5ad24ae3")
 	)
 	(via
@@ -6164,7 +6084,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "Net-(D6-K)")
+		(net "Net-(D1-K)")
 		(uuid "2ea86536-ea81-4aa2-8094-8f6cea052ac9")
 	)
 	(segment
@@ -6172,7 +6092,7 @@
 		(end 98.1 130.2)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(D6-K)")
+		(net "Net-(D1-K)")
 		(uuid "5c97a455-876e-4e29-9775-7d3b32f18bfd")
 	)
 	(segment
@@ -6180,8 +6100,88 @@
 		(end 98.9 131)
 		(width 0.2)
 		(layer "B.Cu")
-		(net "Net-(D6-K)")
+		(net "Net-(D1-K)")
 		(uuid "6f9a424f-0e4c-4eec-b92b-02e42027f17d")
+	)
+	(segment
+		(start 93.15625 130.2)
+		(end 95.04375 130.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D1-A)")
+		(uuid "f3d1d07a-4dbf-4183-9120-94845bf0565c")
+	)
+	(segment
+		(start 94.8375 132.3)
+		(end 95.0375 132.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D2-A)")
+		(uuid "29a95caf-bbc8-47a6-9d1a-ccd685a9eaa7")
+	)
+	(segment
+		(start 93.15 132.1)
+		(end 93.35 132.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D2-A)")
+		(uuid "62dc45b0-2ceb-424c-b88f-4124aa4ed0a9")
+	)
+	(segment
+		(start 93.35 132.3)
+		(end 94.8375 132.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D2-A)")
+		(uuid "f0d779e1-3658-4547-9754-f27aaa495302")
+	)
+	(segment
+		(start 88.7 128)
+		(end 88.7 129.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(NT1-Pad1)")
+		(uuid "96a44f55-1f89-482e-b690-54d1d8cbc821")
+	)
+	(segment
+		(start 88.7 129.1)
+		(end 89.8 130.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(NT1-Pad1)")
+		(uuid "f93ae991-ef74-465d-9e2f-11cf032d04d1")
+	)
+	(segment
+		(start 89.8 130.2)
+		(end 91.50625 130.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(NT1-Pad1)")
+		(uuid "ff808bfc-af46-4e4b-944d-e738690e9383")
+	)
+	(via
+		(at 91.5 132.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(NT3-Pad1)")
+		(uuid "7eddbb55-4231-46ce-9358-98400060efb6")
+	)
+	(segment
+		(start 91.5 130.5)
+		(end 91.5 132.3)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(NT3-Pad1)")
+		(uuid "2333b406-9edc-4f8a-9fda-d9a51045d23b")
+	)
+	(segment
+		(start 95 127)
+		(end 91.5 130.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(NT3-Pad1)")
+		(uuid "ce478b44-ff29-4bf6-ac5a-16fa1ab08bf9")
 	)
 	(zone
 		(net "GND")
