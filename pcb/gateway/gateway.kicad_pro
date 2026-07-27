@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.575,
-          "width": 0.2
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,29 +69,27 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "clearance|100175000|127575000|8b77341b-dde2-405a-bc14-ae9fc5faaa4b|b4c1530e-8cab-4b0a-bac3-3b40c1a2b280",
-          "Bad footprint, false alarm"
+          "silk_edge_clearance|125955000|135600000|62e24579-9a82-481c-b1bf-fa3e1ff4e27d|39f79a93-5a4d-4c5c-b3d5-1fbe40760de5",
+          "Special shape."
         ],
         [
-          "clearance|100275000|125200000|18518f98-e071-4dfd-a63b-5fa18db08b85|ac8e91b5-2dfc-4944-872f-45bc3d69c4a7",
-          "Bad footprint, false alarm"
+          "silk_edge_clearance|126295000|135600000|62e24579-9a82-481c-b1bf-fa3e1ff4e27d|7a6aaeae-62b3-4adb-b9eb-978abdf03024",
+          "Special shape."
         ],
         [
-          "clearance|98775000|125200000|047297d6-3094-47f4-a610-3c9a76f74d2a|2998c15b-1671-45a5-b642-81ae44bcc906",
-          "Bad footprint, false alarm"
+          "silk_edge_clearance|129055000|135600000|62e24579-9a82-481c-b1bf-fa3e1ff4e27d|eff21b00-90e1-4606-829e-2ad5ae9c1c09",
+          "Special shape."
         ],
         [
-          "clearance|98775000|127300000|8d6b6697-1323-4bda-bf58-7ded141cc055|220f2888-0da7-48a5-a740-6647be5365c1",
-          "Bad footprint, false alarm"
+          "silk_edge_clearance|144075000|135600000|62e24579-9a82-481c-b1bf-fa3e1ff4e27d|974f6acc-e835-4f06-b466-253634484fa4",
+          "Special shape."
+        ],
+        [
+          "silk_edge_clearance|146835000|135600000|62e24579-9a82-481c-b1bf-fa3e1ff4e27d|9ef0b0af-2986-43e3-90a2-027aabee0767",
+          "Special shape."
         ]
       ],
       "meta": {
@@ -178,7 +176,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -226,9 +224,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -255,12 +251,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -290,32 +281,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|3340100|889000|169940fa-6317-4b83-b6a2-74d6cf0c5b09|0c5aa7d1-5f56-4e6f-b721-4d32f7465ec5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
-        "These can go in parallel."
-      ],
-      [
-        "pin_to_pin|3340100|901700|169940fa-6317-4b83-b6a2-74d6cf0c5b09|0c5aa7d1-5f56-4e6f-b721-4d32f7465ec5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
-        "Pins in parallel for more current"
-      ],
-      [
-        "pin_to_pin|3340100|914400|0c5aa7d1-5f56-4e6f-b721-4d32f7465ec5|259eb343-2af1-450e-9640-444d8dbfebe7|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
-        "These can go in parallel."
-      ],
-      [
-        "pin_to_pin|3340100|927100|0c5aa7d1-5f56-4e6f-b721-4d32f7465ec5|259eb343-2af1-450e-9640-444d8dbfebe7|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
-        "Pins in parallel for more current"
-      ],
-      [
-        "pin_to_pin|3340100|965200|259eb343-2af1-450e-9640-444d8dbfebe7|53065ffc-db91-407c-83ed-4f249001d9d9|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
-        "These can go in parallel."
-      ],
-      [
-        "pin_to_pin|3340100|977900|259eb343-2af1-450e-9640-444d8dbfebe7|53065ffc-db91-407c-83ed-4f249001d9d9|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
-        "Pins in parallel for more current"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -539,15 +505,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "Local"
-    ],
-    "pinned_symbol_libs": [
-      "local-lib"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pcb-wires-first.kicad_pro",
+    "filename": "uart-combiner.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -572,20 +534,12 @@
         "wire_width": 6
       },
       {
-        "name": "1A",
+        "line_style": 0,
+        "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "wire_width": 12
-      },
-      {
-        "name": "4A",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
+        "track_width": 0.3,
         "tuning_profile": "",
         "wire_width": 12
       }
@@ -597,16 +551,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "4A",
-        "pattern": "HV-*"
-      },
-      {
-        "netclass": "4A",
-        "pattern": "/hv-*"
-      },
-      {
-        "netclass": "4A",
-        "pattern": "/output-*"
+        "netclass": "PWR",
+        "pattern": "+3V3"
       }
     ]
   },
@@ -733,18 +679,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "pcb-wires-first.kicad_sch",
-        "name": "pcb-wires-first",
-        "uuid": "2155cca2-5ec1-4d94-9553-ebcda519e5b5"
+        "filename": "uart-combiner.kicad_sch",
+        "name": "Root",
+        "uuid": "7f25198e-49d0-435a-a5a4-97946e7fb4eb"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H1-4,JP1,TP1,R1-11,#PWR1-14,#PWR31-37,J1-9,D1-11,A1",
     "variants": []
   },
   "sheets": [
     [
-      "2155cca2-5ec1-4d94-9553-ebcda519e5b5",
-      "pcb-wires-first"
+      "7f25198e-49d0-435a-a5a4-97946e7fb4eb",
+      "Root"
     ]
   ],
   "text_variables": {},
