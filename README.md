@@ -32,7 +32,7 @@ Two can be mounted on a single Holey-S board.
 
 ## Switcher
 
-![](assets/switcher–0.4.0.png)
+![](assets/switcher-0.4.0.png)
 
 Originally meant to control LED lights, but it can switch anything. It has one switchable 12/24V output (should be able to handle 4A). Output can be controlled simultaneously in multiple ways:
 
@@ -46,3 +46,15 @@ The idea here that ON/OFF/TGL signals could be wired to the physical wall switch
 Renesas HVPAK SLG47115 chip serves both as a high-power switch and an input sanitizer. For example, if faulty hardware shorts ON signal to GND permanently, OFF and TGL signals continue to operate normally. 
 
 Two can be mounted on a single Holey-S board.
+
+## Holey boards
+
+![](assets/holey-L.png)
+
+These are very handy to mount modules listed above, or maybe anything. They have a grid of 3.2mm diameter holes (hence the name) on a 5mm grid. They work perfectly with any M3 mounting hardware and come in the following sizes:
+
+* L - 160x100 mm
+* M - 100x80 mm
+* S - 80x40 mm
+
+So, one M board can fit exactly two S boards, and one L board can fit exactly 2 M boards. This allows some neat and functional arrangement.
