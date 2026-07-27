@@ -12,7 +12,15 @@ Another problem - central IoT hubs. If those break, lose connection, decides to 
 
 Put the analog wires first! So that light switches continue to operate even if smart features decide to stop working.
 
-# The Board
+# The Boards
+
+## Gateway
+
+![](assets/gateway-1.0.0.png)
+
+This is a simple carrier board for WizNET W55RP20 development module. It cannot do much by itself - maybe blink some LEDs. Real functionality (and also power) should come from the JST PH headers.
+
+## Switcher
 
 This is a draft for a lights controller.
 
