@@ -509,7 +509,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "uart-combiner.kicad_pro",
+    "filename": "gateway.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -679,8 +679,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "uart-combiner.kicad_sch",
-        "name": "Root",
+        "filename": "gateway.kicad_sch",
+        "name": "gateway",
         "uuid": "7f25198e-49d0-435a-a5a4-97946e7fb4eb"
       }
     ],
