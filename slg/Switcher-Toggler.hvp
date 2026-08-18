@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="41" oldestCompatibleVersion="32" GPDVersion="6.54.102" lastChange="7 Jul 2026 11:55:33" projectChecksumState="1" projectChecksum="dd0f181a">
+<GPDProject version="41" oldestCompatibleVersion="32" GPDVersion="6.54.102" lastChange="18 Aug 2026 10:12:33" projectChecksumState="1" projectChecksum="ae97731c">
     <Metadata>
         <LegalNotice>This Design was generated using Renesas' proprietary Go Configure Software Hub and is provided for use solely in connection with Renesas GreenPAK integrated circuits. Any unauthorized use, reproduction, distribution, or manufacture of this Design is prohibited. This Design is provided 'AS IS' without warranties of any kind.</LegalNotice>
     </Metadata>
     <generalProjectSettings/>
     <chip family="04" type="06" friendlyName="HVPAK1" partNumber="57" package="7">
-        <nvmData registerLenght="2048">0 A0 FC 0 90 FC 0 0 0 C1 F 0 C1 F 0 0 0 0 0 0 8 5 74 18 1 2 D 60 34 85 4 C4 FC 7 0 60 C9 2F F3 BE F0 E3 0 0 0 0 E0 1 C0 7 0 0 0 6C 0 0 0 0 0 0 3F 0 0 C0 F 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 F 1 80 A2 0 3 3 0 0 0 0 42 1 0 50 50 0 0 0 0 81 49 0 2 91 8 10 2 0 0 10 48 0 0 0 1 0 0 1 0 1 0 1 0 1 0 0 0 0 0 FE 80 55 40 A8 0 0 8 0 0 0 FE 0 FE 11 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5A 0 0 1 0 0 1 2 A5</nvmData>
-        <checksum crc32="0xC906160F" version="0"/>
+        <nvmData registerLenght="2048">0 A0 FC 0 90 FC 0 0 0 C1 F 0 C1 F 0 0 0 0 0 0 8 5 74 18 1 2 D 60 34 85 4 C4 FC 7 0 60 C9 2F F3 BE F0 E3 0 0 0 0 E0 1 C0 7 0 0 0 6C 0 0 0 0 0 0 3F 0 0 C0 F 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 F 1 80 AA 0 3 3 0 0 0 0 42 1 0 51 51 0 0 0 0 81 49 0 2 91 8 10 2 0 0 10 48 0 0 0 1 0 0 1 0 1 0 1 0 1 0 0 0 0 0 FE 80 55 40 A8 0 0 8 0 0 0 FE 0 FE 11 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5A 0 0 1 0 0 1 2 A5</nvmData>
+        <checksum crc32="0x8A9BEF87" version="0"/>
         <virtualProperties/>
         <VDDItem id="0">
             <item id="0" caption="VDD (PIN 1)">
