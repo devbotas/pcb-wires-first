@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${VERSION}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -746,7 +746,9 @@
       "switcher"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "VERSION": "0.4.1"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0

@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "2155cca2-5ec1-4d94-9553-ebcda519e5b5")
 	(paper "A3")
+	(title_block
+		(rev "${VERSION}")
+	)
 	(lib_symbols
 		(symbol "CPLD_Renesas:SLG47115V"
 			(exclude_from_sim no)
@@ -2297,6 +2300,16 @@
 		)
 		(uuid "b68a33c0-5000-40a7-ac0b-9d761015cab1")
 	)
+	(text "ISSUES TO FIX IN ${VERSION}\n\n1. SENSE should be tied to HV_GND - DONE\n2. Thermal vias should be capped if possible\n3. Control inputs aren't very protected\n4. I2C pull upps shopuld be removed, or at least add solderable bridges"
+		(exclude_from_sim no)
+		(at 368.808 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e85aaafd-361b-4a70-9b36-772a3969c01d")
+	)
 	(junction
 		(at 130.81 110.49)
 		(diameter 0)
@@ -2424,6 +2437,12 @@
 		(uuid "9fd5dccc-a1e1-45c1-87c2-2b5f1e1dfea7")
 	)
 	(junction
+		(at 106.68 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e03eac-1984-490a-82be-a39fb1bdc5ca")
+	)
+	(junction
 		(at 130.81 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2502,16 +2521,8 @@
 		(uuid "ff1dd9fe-63b8-4dde-9e49-3bb3e92eddc2")
 	)
 	(no_connect
-		(at 107.95 143.51)
-		(uuid "42a84cbc-74be-4fb0-a754-c5ce652fc0e5")
-	)
-	(no_connect
 		(at 107.95 120.65)
 		(uuid "46a9c80a-eeef-4a74-be39-f652e4cdb42a")
-	)
-	(no_connect
-		(at 107.95 146.05)
-		(uuid "7ef94bb8-23a6-4d74-b1f4-00eac7eb68f1")
 	)
 	(wire
 		(pts
@@ -2765,6 +2776,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 168.91) (xy 130.81 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cfc71a-9637-4177-8600-53594ece1e77")
+	)
+	(wire
+		(pts
 			(xy 86.36 137.16) (xy 88.9 137.16)
 		)
 		(stroke
@@ -2792,6 +2813,16 @@
 			(type default)
 		)
 		(uuid "3afe67c5-0e02-4813-9d94-a7731fdd72b0")
+	)
+	(wire
+		(pts
+			(xy 106.68 143.51) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41661a3c-b7bb-42bb-b8ec-38dd8b87af1d")
 	)
 	(wire
 		(pts
@@ -2835,6 +2866,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 146.05) (xy 107.95 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed870fa-8a0d-49ab-ad40-5b42ce939ff9")
+	)
+	(wire
+		(pts
 			(xy 86.36 149.86) (xy 88.9 149.86)
 		)
 		(stroke
@@ -2842,6 +2883,16 @@
 			(type default)
 		)
 		(uuid "4fb7eb17-4f99-41cc-8025-bc2a3b678b28")
+	)
+	(wire
+		(pts
+			(xy 106.68 146.05) (xy 106.68 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c67483-784f-4599-9d0d-4ad5a83afd11")
 	)
 	(wire
 		(pts
@@ -3782,6 +3833,16 @@
 			(type default)
 		)
 		(uuid "f0ad89cd-c170-4352-8ec7-1affd9e8b200")
+	)
+	(wire
+		(pts
+			(xy 107.95 143.51) (xy 106.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c131bf-61bd-451f-9f13-a62e25f9c871")
 	)
 	(wire
 		(pts
