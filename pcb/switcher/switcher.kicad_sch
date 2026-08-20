@@ -2300,7 +2300,7 @@
 		)
 		(uuid "b68a33c0-5000-40a7-ac0b-9d761015cab1")
 	)
-	(text "ISSUES TO FIX IN ${VERSION}\n\n1. SENSE should be tied to HV_GND - DONE\n2. Thermal vias should be capped if possible\n3. Control inputs aren't very protected\n4. I2C pull upps shopuld be removed, or at least add solderable bridges"
+	(text "ISSUES TO FIX IN ${VERSION}\n\n1. SENSE should be tied to HV_GND - DONE\n2. Thermal vias should be capped if possible\n3. Control inputs aren't very protected\n4. I2C pull upps shopuld be removed, or at least add solderable bridges\n5. Use remaining free pin to select I2C address."
 		(exclude_from_sim no)
 		(at 368.808 25.908 0)
 		(effects
