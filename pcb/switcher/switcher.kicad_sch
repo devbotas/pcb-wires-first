@@ -5,7 +5,9 @@
 	(uuid "2155cca2-5ec1-4d94-9553-ebcda519e5b5")
 	(paper "A3")
 	(title_block
+		(title "${TITLE}")
 		(rev "${VERSION}")
+		(company "${COMPANY}")
 	)
 	(lib_symbols
 		(symbol "CPLD_Renesas:SLG47115V"

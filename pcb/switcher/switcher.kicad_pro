@@ -747,6 +747,8 @@
     ]
   ],
   "text_variables": {
+    "COMPANY": "devbotas",
+    "TITLE": "Wires-first Switcher",
     "VERSION": "0.4.1"
   },
   "tuning_profiles": {

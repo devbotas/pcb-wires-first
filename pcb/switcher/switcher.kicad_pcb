@@ -8,7 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
+		(title "${TITLE}")
 		(rev "${VERSION}")
+		(company "${COMPANY}")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -90,6 +92,8 @@
 			(outputdirectory "output")
 		)
 	)
+	(property "COMPANY" "devbotas")
+	(property "TITLE" "Wires-first Switcher")
 	(property "VERSION" "0.4.1")
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -8271,7 +8275,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Wires-first\nswitcher v${VERSION}\nCopyright \n(c) devbotas\n"
+	(gr_text "${TITLE}\nv${VERSION}\nCopyright \n(c) ${COMPANY}\n"
 		(at 82.5 132 0)
 		(layer "F.SilkS")
 		(uuid "5e50e72c-510a-47dd-8144-3e975b084a16")
