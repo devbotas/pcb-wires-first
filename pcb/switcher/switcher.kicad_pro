@@ -287,6 +287,18 @@
         "Parallel outputs, it's fine."
       ],
       [
+        "pin_to_pin|1701800|1358900|169940fa-6317-4b83-b6a2-74d6cf0c5b09|0c5aa7d1-5f56-4e6f-b721-4d32f7465ec5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
+        "Parallel outputs, all good."
+      ],
+      [
+        "pin_to_pin|1701800|1384300|0c5aa7d1-5f56-4e6f-b721-4d32f7465ec5|259eb343-2af1-450e-9640-444d8dbfebe7|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
+        "Parallel outputs, all good."
+      ],
+      [
+        "pin_to_pin|1701800|1435100|259eb343-2af1-450e-9640-444d8dbfebe7|53065ffc-db91-407c-83ed-4f249001d9d9|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
+        "Parallel outputs, all good."
+      ],
+      [
         "pin_to_pin|3340100|889000|169940fa-6317-4b83-b6a2-74d6cf0c5b09|0c5aa7d1-5f56-4e6f-b721-4d32f7465ec5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5|/2155cca2-5ec1-4d94-9553-ebcda519e5b5",
         "These can go in parallel."
       ],
@@ -737,7 +749,7 @@
         "uuid": "2155cca2-5ec1-4d94-9553-ebcda519e5b5"
       }
     ],
-    "used_designators": "U1,JP1-3,TP1,R1-7,RN1,SW1-3,NT1-4,H1-4,D1-5,C1-6,#PWR1-19,J1-5,J9,#FLG1-4",
+    "used_designators": "PUC1,Bit1,#FLG1-4,J1-5,J9,PUD1,#PWR1-20,C1-6,H1-4,NT1-4,SW1-3,RN1,R1-7,TP1,JP1-3,D1-5,U1-2",
     "variants": []
   },
   "sheets": [
