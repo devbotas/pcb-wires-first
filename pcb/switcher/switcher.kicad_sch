@@ -1629,6 +1629,392 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Pack04"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RN"
+				(at -7.62 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04"
+				(at 5.08 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.985 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Pack04_0_1"
+				(rectangle
+					(start -6.35 -2.413)
+					(end 3.81 2.413)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 1.905)
+					(end -4.445 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 1.905)
+					(end 0.635 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_1_1"
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -2581,12 +2967,6 @@
 		(uuid "7451126e-f43e-4c8f-88e3-bde34d2c7521")
 	)
 	(junction
-		(at 88.9 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77c7e598-24c4-423e-8ffb-88e60387433a")
-	)
-	(junction
 		(at 228.6 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2633,18 +3013,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2e3d3ec-d7f9-4f4f-af34-ac83885aa7ad")
-	)
-	(junction
-		(at 76.2 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8224a23-55aa-4007-bea1-c50b0e9738ff")
-	)
-	(junction
-		(at 101.6 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5607b4f-707c-41c8-8837-1814be2f0106")
 	)
 	(junction
 		(at 228.6 154.94)
@@ -2956,16 +3324,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 128.27) (xy 76.2 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34dd3843-1acb-45db-9b2f-bd336f58ec82")
-	)
-	(wire
-		(pts
 			(xy 342.9 134.62) (xy 342.9 139.7)
 		)
 		(stroke
@@ -3036,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 135.89) (xy 55.88 137.16)
+			(xy 43.18 135.89) (xy 43.18 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3053,6 +3411,16 @@
 			(type default)
 		)
 		(uuid "45bc9ace-48e2-40cd-a4fc-83f40b314d4d")
+	)
+	(wire
+		(pts
+			(xy 41.91 133.35) (xy 52.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e68c9a-3e6d-4239-8311-a4b67a134e3a")
 	)
 	(wire
 		(pts
@@ -3133,6 +3501,16 @@
 			(type default)
 		)
 		(uuid "59b0c677-52c4-4b28-af33-4328f0e1e68a")
+	)
+	(wire
+		(pts
+			(xy 41.91 130.81) (xy 52.07 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2aa05e-421b-46e7-8658-c39da236d250")
 	)
 	(wire
 		(pts
@@ -3386,6 +3764,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 128.27) (xy 52.07 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bba0874-85db-417d-8990-2081e436e4b2")
+	)
+	(wire
+		(pts
 			(xy 254 154.94) (xy 262.89 154.94)
 		)
 		(stroke
@@ -3436,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 135.89) (xy 55.88 135.89)
+			(xy 41.91 135.89) (xy 43.18 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3843,26 +4231,6 @@
 			(type default)
 		)
 		(uuid "cec271c3-5787-4c65-851c-abedc987e767")
-	)
-	(wire
-		(pts
-			(xy 54.61 133.35) (xy 101.6 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf79a74e-779e-411b-865a-ceb8d5f9ec60")
-	)
-	(wire
-		(pts
-			(xy 54.61 130.81) (xy 88.9 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0251ea6-18d6-4818-88fd-aef5bec7db81")
 	)
 	(wire
 		(pts
@@ -6534,7 +6902,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 49.53 133.35 180)
+		(at 36.83 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6544,7 +6912,7 @@
 		(dnp no)
 		(uuid "715f5cae-e792-4ade-93a0-739f9b195524")
 		(property "Reference" "J1"
-			(at 46.99 133.3501 0)
+			(at 34.29 133.3501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6555,7 +6923,7 @@
 			)
 		)
 		(property "Value" "Input"
-			(at 46.99 130.8101 0)
+			(at 34.29 130.8101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6566,7 +6934,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_4-G-3.5_1x04_P3.50mm_Vertical"
-			(at 49.53 133.35 0)
+			(at 36.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6577,7 +6945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 133.35 0)
+			(at 36.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +6956,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 49.53 133.35 0)
+			(at 36.83 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7275,7 +7643,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 137.16 0)
+		(at 43.18 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7286,7 +7654,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab046115-dac9-4815-981c-d3e80cafcbb7")
 		(property "Reference" "#PWR01"
-			(at 55.88 143.51 0)
+			(at 43.18 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,7 +7665,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 142.24 0)
+			(at 43.18 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7307,7 +7675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 137.16 0)
+			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7318,7 +7686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 137.16 0)
+			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7329,7 +7697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 137.16 0)
+			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,6 +8807,104 @@
 			(project "switcher"
 				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 57.15 130.81 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9433a2a-2dad-445b-a62b-e4021315fa00")
+		(property "Reference" "RN1"
+			(at 57.15 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Pack04"
+			(at 57.15 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 57.15 123.825 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology"
+			(at 57.15 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "54c39944-4178-465c-92b3-98fba8a55dfe")
+		)
+		(pin "4"
+			(uuid "3df8ce67-a781-43af-b36b-9f69f3673f0e")
+		)
+		(pin "5"
+			(uuid "0f62249b-16c1-4992-9286-01068a40ef04")
+		)
+		(pin "3"
+			(uuid "026a56ff-c8e8-4c19-8d2e-ca1f80bb2524")
+		)
+		(pin "1"
+			(uuid "2cfd9102-57fb-4301-8f9a-e332b620b1e5")
+		)
+		(pin "6"
+			(uuid "c1350c0e-d630-4dac-bf96-e1055d4a3dbb")
+		)
+		(pin "8"
+			(uuid "3afe6073-e03a-43f1-b367-207890a4e035")
+		)
+		(pin "7"
+			(uuid "7f0b3e7f-bf7d-4d04-9471-a50bc0b1424e")
+		)
+		(instances
+			(project "switcher"
+				(path "/2155cca2-5ec1-4d94-9553-ebcda519e5b5"
+					(reference "RN1")
 					(unit 1)
 				)
 			)
