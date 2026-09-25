@@ -8411,6 +8411,20 @@
 		(size 0.4)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front no)
+			(back no)
+		)
+		(capping yes)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling yes)
 		(net "GND")
 		(uuid "7a28deda-32d8-461e-baa7-2a5e15bc505a")
 	)
@@ -8419,6 +8433,20 @@
 		(size 0.4)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front no)
+			(back no)
+		)
+		(capping yes)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling yes)
 		(net "GND")
 		(uuid "7b86aa8b-feb1-4aa9-a47f-5207b7cf9447")
 	)
@@ -9206,6 +9234,20 @@
 		(size 0.4)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front no)
+			(back no)
+		)
+		(capping yes)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling yes)
 		(net "HV-GND")
 		(uuid "902131ae-cdb2-4ec6-8758-5baf5dc49e01")
 	)
@@ -9214,6 +9256,20 @@
 		(size 0.4)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front no)
+			(back no)
+		)
+		(capping yes)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling yes)
 		(net "HV-GND")
 		(uuid "d3cbfb84-06e1-49af-81e9-af6284d95455")
 	)
