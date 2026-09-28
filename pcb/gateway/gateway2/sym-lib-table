@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "WIZnet_W6300")(type "KiCad")(uri "${KIPRJMOD}/WIZnet_W6300_KiCad_Library/WIZnet_W6300.kicad_sym")(options "")(descr "Local WIZnet W6300 symbol library"))
+)
