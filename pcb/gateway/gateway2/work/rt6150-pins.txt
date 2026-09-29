@@ -1,0 +1,114 @@
+RT6150A/B
+Marking Information                                                         Pin Configuration
+RT6150AGQW
+                                                                                                       (TOP VIEW)
+                     0N= : Product Code
+                     YMDNN : Date Code                                                          VOUT 1               10   FB
+    0N=YM                                                                                         LX2 2               9   GND
+      DNN                                                                                        GND 3         GND    8   VINA
+                                                                                                  LX1 4               7   PS
+                                                                                                  VIN 5         11    6   EN
+
+                                                                                          WDFN-10L 3x3 / WDFN-10L 2.5x2.5
+RT6150BGQW
+                     00 : Product Code
+
+    00W              W : Date Code
+
+
+
+
+RT6150B-33GQW
+                     03 : Product Code
+    03W              W : Date Code
+
+
+
+
+Functional Pin Description
+        Pin No.                 Pin Name                                               Pin Function
+                                                     Output of the buck-boost converter. Connect a capacitor between the VOUT
+             1                VOUT
+                                                     and GND.
+             2                LX2                    Second switch node. Connect this pin to the inductor.
+       3, 9,                                         Power ground. The exposed pad must be soldered to a large PCB and
+                              GND
+ 11 (Exposed Pad)                                    connected to GND for maximum power dissipation.
+             4                LX1                    First switch node. Connect this pin to the inductor.
+                                                     Power input. Connect an at least 10F capacitor between the VIN pin and
+             5                VIN
+                                                     GND.
+             6                EN                     Enable control input for the buck-boost converter.
+                                                     PSM control input. Pull low for PSM operation and pull high for fixed
+             7                PS
+                                                     switching frequency operation.
+             8                VINA                   Supply voltage input for control circuit.
+                                                     Feedback input. For adjustable versions, connect a resistive divider to set
+            10                FB                     the output voltage and it can be adjusted from 2.5V to 5.5V; For fixed
+                                                     version, must be connected to VOUT.
+
+
+
+
+Copyright © 2018 Richtek Technology Corporation. All rights reserved.            is a registered trademark of Richtek Technology Corporation.
+
+www.richtek.com                                                                                                      DS6150A/B-06 July 2018
+2
+                                                                                                                              RT6150A/B
+Functional Block Diagram
+                                                                LX1                         LX2
+
+
+
+                              VIN                                                                                                VOUT
+
+
+                                                                         Gate Driver
+
+
+
+                            VINA
+                                                               OCP                         Zero Current
+                                                   ISENSE
+
+                                           Temp              OTP                                           VPSM
+                                                                              CTRL
+                                           Control
+                               PS
+                               EN
+                                                                        OSC
+                                                                                     CMP
+                                                                                                                  SS
+
+                                                                                                          +     VREF
+                                                                               +                        AMP
+                                                                                                          -                      FB
+                                                                                 +
+                                                                                                   CC
+                                                                              Slop Comp
+
+                                                                                                  RC
+
+
+                                                                                              GND
+
+
+
+Operation
+The RT6150A/B is a synchronous average current mode switching Buck-Boost converter designed to maintain a fixed
+output voltage from an input supply that can be above, equal, or below the output voltage. The average inductor current
+is regulated by a fast current regulator which is controlled by a voltage control loop. The voltage error amplifier gets its
+feedback input from the FB pin. For adjustable output voltage, a resistive voltage divider must be connected to the FB
+pin. When VIN is greater than VOUT, the device operates in Buck mode. When VIN is lower than VOUT, the device
+operates in Boost mode. When VIN is close to VOUT, the RT6150A/B automatically enters Buck-Boost mode. In Buck-
+Boost mode, the converter will maintain the regulation for output voltage and keep a minimum current ripple in the
+inductor to guarantee good performance.
+
+
+
+
+Copyright © 2018 Richtek Technology Corporation. All rights reserved.                      is a registered trademark of Richtek Technology Corporation.
+
+DS6150A/B-06 July 2018                                                                                                                    www.richtek.com
+                                                                                                                                                        3
+

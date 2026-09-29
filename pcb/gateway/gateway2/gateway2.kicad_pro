@@ -529,6 +529,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -651,13 +652,21 @@
         "uuid": "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
       }
     ],
-    "used_designators": "SW1-2,R1-22,Y1-2,#PWR1-30,D1,C1-26,L1-4,J1-11,U1-3",
+    "used_designators": "SW1-2,R1-25,Y1-2,#PWR1-39,D1,C1-37,L1-6,J1-11,U1-3",
     "variants": []
   },
   "sheets": [
     [
       "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6",
       "Root"
+    ],
+    [
+      "a278b076-21e1-4166-b8d0-c689877d5f24",
+      "WizNet"
+    ],
+    [
+      "68a8a9a9-df38-4ae8-987a-9ba8dce22c75",
+      "Power"
     ]
   ],
   "text_variables": {},

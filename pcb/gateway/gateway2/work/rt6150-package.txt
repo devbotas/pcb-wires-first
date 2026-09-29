@@ -1,0 +1,98 @@
+RT6150A/B
+Outline Dimension
+
+
+                                                         D2
+                    D
+
+                                                                              L
+
+
+                                    E                                    E2
+
+                                                                         SEE DETAIL A
+                                                                   1
+
+                                                  e
+                                                                   b                                                       2    1               2   1
+ A
+                                         A3
+                                    A1                                                                                 DETAIL A
+                                                                                                           Pin #1 ID and Tie Bar Mark Options
+
+                                                                                  Note : The configuration of the Pin #1 identifier is optional,
+                                                                                  but must be located within the zone indicated.
+
+
+
+                                                 Dimensions In Millimeters                 Dimensions In Inches
+                              Symbol
+                                                       Min                Max                 Min                  Max
+                                   A                  0.700              0.800               0.028                0.031
+                                  A1                  0.000              0.050               0.000                0.002
+                                  A3                  0.175              0.250               0.007                0.010
+                                   b                  0.180              0.300               0.007                0.012
+                                   D                  2.950              3.050               0.116                0.120
+                                  D2                  2.300              2.650               0.091                0.104
+                                   E                  2.950              3.050               0.116                0.120
+                                  E2                  1.500              1.750               0.059                0.069
+                                   e                             0.500                                 0.020
+                                   L                  0.350              0.450               0.014                0.018
+
+                                                         W-Type 10L DFN 3x3 Package
+
+
+
+
+Copyright © 2018 Richtek Technology Corporation. All rights reserved.                is a registered trademark of Richtek Technology Corporation.
+
+www.richtek.com                                                                                                         DS6150A/B-06 July 2018
+12
+                                                                                                                                    RT6150A/B
+
+
+
+
+                                                                                                                          2     1                2    1
+
+
+                                                                                                                     DETAIL A
+                                                                                                         Pin #1 ID and Tie Bar Mark Options
+
+                                                                             Note : The configuration of the Pin #1 identifier is optional,
+                                                                             but must be located within the zone indicated.
+
+
+                                                   Dimensions In Millimeters                            Dimensions In Inches
+                            Symbol
+                                                       Min                      Max                      Min                        Max
+                                A                     0.700                   0.800                    0.028                    0.031
+                               A1                     0.000                   0.050                    0.000                    0.002
+                               A3                     0.175                   0.250                    0.007                    0.010
+                                 b                    0.200                   0.300                    0.008                    0.012
+                                D                     2.400                   2.600                    0.094                    0.102
+                               D2                     1.950                   2.050                    0.077                    0.081
+                                E                     2.400                   2.600                    0.094                    0.102
+                               E2                     1.150                   1.250                    0.045                    0.049
+                                 e                                0.500                                             0.020
+                                 L                    0.350                   0.450                    0.014                    0.018
+
+                                                         W-Type 10L DFN 2.5x2.5 Package
+
+
+
+
+Richtek Technology Corporation
+14F, No. 8, Tai Yuen 1st Street, Chupei City
+Hsinchu, Taiwan, R.O.C.
+Tel: (8863)5526789
+
+Richtek products are sold by description only. Customers should obtain the latest relevant information and data sheets before placing orders and should verify
+that such information is current and complete. Richtek cannot assume responsibility for use of any circuitry other than circuitry entirely embodied in a Richtek
+product. Information furnished by Richtek is believed to be accurate and reliable. However, no responsibility is assumed by Richtek or its subsidiaries for its use;
+nor for any infringements of patents or other rights of third parties which may result from its use. No license is granted by implication or otherwise under any patent
+or patent rights of Richtek or its subsidiaries.
+
+DS6150A/B-06 July 2018                                                                                                                          www.richtek.com
+                                                                                                                                                              13
+
