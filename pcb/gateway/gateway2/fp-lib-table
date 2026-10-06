@@ -3,4 +3,6 @@
   (lib (name "WIZnet_W6300")(type "KiCad")(uri "${KIPRJMOD}/WIZnet_W6300_KiCad_Library/WIZnet_W6300.pretty")(options "")(descr "Local WIZnet W6300 footprint library"))
   (lib (name "Richtek_RT6150")(type "KiCad")(uri "${KIPRJMOD}/Richtek_RT6150_KiCad_Library/Richtek_RT6150.pretty")(options "")(descr "Local Richtek RT6150AGQW footprint library"))
   (lib (name "AVX_Capacitor_Array")(type "KiCad")(uri "${KIPRJMOD}/AVX_Capacitor_Array_KiCad_Library/AVX_Capacitor_Array.pretty")(options "")(descr "Local KYOCERA AVX W3A 0612 capacitor-array footprint library"))
+  (lib (name "Littelfuse_CK_PTS815")(type "KiCad")(uri "${KIPRJMOD}/Littelfuse_CK_PTS815_KiCad_Library/Littelfuse_CK_PTS815.pretty")(options "")(descr "Local C&K / Littelfuse PTS815 tactile-switch footprint library"))
+  (lib (name "Abracon_AOTA_B201610S")(type "KiCad")(uri "${KIPRJMOD}/Abracon_AOTA_B201610S_KiCad_Library/Abracon_AOTA_B201610S.pretty")(options "")(descr "Local Abracon AOTA-B201610S 0806 (2016 Metric) inductor footprint library"))
 )
