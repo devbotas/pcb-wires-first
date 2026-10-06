@@ -611,7 +611,16 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "BrickletBus": [
+        "MISO",
+        "CLK",
+        "MOSI",
+        "CS_1",
+        "CS_2",
+        "CS_3"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -652,7 +661,7 @@
         "uuid": "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
       }
     ],
-    "used_designators": "#FLG1-21,SW1-2,JP1-12,R1-38,H1-4,CP1-6,J1-11,CN1,C1-44,P1,L1-6,D1-2,U1-10,Y1-2,#PWR1-61,RN1-6",
+    "used_designators": "#FLG1-21,SW1-2,JP1-14,R1-40,H1-4,CP1-7,J1-11,CN1,C1-44,P1,L1-6,D1-2,U1-10,Y1-2,#PWR1-83,RN1-7",
     "variants": []
   },
   "sheets": [
@@ -669,28 +678,16 @@
       "Power"
     ],
     [
-      "640886ef-3c7a-4f33-87f9-7ffb5360a7df",
-      "BrickletPort1"
-    ],
-    [
-      "e6a0cbec-0b2a-4e84-af4e-e8fba89df377",
-      "BrickletPort2"
-    ],
-    [
-      "aa2c4d4b-43cc-4fe8-9116-a82c78cf3821",
+      "2270f938-9e88-4822-9195-66f8ec9fd89f",
       "BrickletPort3"
     ],
     [
-      "15b558df-33e9-4ad4-a540-d9497204656a",
-      "BrickletPort4"
-    ],
-    [
       "fe7ca88c-2b6f-471d-ace9-d3d6a951e95f",
-      "BrickletPort5"
+      "BrickletPort2"
     ],
     [
       "48086788-2dae-4fa8-b688-a98b4725ecdb",
-      "BrickletPort6"
+      "BrickletPort1"
     ]
   ],
   "text_variables": {},
