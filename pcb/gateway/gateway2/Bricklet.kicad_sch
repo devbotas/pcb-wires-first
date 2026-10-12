@@ -2335,6 +2335,16 @@
 		)
 		(uuid "557a8900-55e4-436d-a646-5d7586815a2c")
 	)
+	(text "Decoupling caps"
+		(exclude_from_sim no)
+		(at 256.794 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76880a7c-1dcf-4823-b6e6-7bab8a8e222b")
+	)
 	(junction
 		(at 134.62 102.87)
 		(diameter 0)

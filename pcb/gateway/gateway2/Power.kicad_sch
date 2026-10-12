@@ -1184,156 +1184,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "Do I do POE?"
-		(exclude_from_sim no)
-		(at 169.672 57.404 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "e1e328e3-c2f8-4ec8-9dcf-35bb97cf9958")
 	)
 	(junction
 		(at 171.45 91.44)
@@ -1352,12 +1202,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bdcd4f0-6687-4596-b9b5-45c1a4dc379c")
-	)
-	(junction
-		(at 138.43 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59767f23-d978-40c0-81f3-f0a10732f9a4")
 	)
 	(junction
 		(at 133.35 68.58)
@@ -1388,6 +1232,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8ad41f5-59d6-4873-bce8-4c993da54f5d")
+	)
+	(junction
+		(at 193.04 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c33e4d63-946f-4e44-9dc8-96255133e489")
 	)
 	(junction
 		(at 187.96 68.58)
@@ -1438,16 +1288,6 @@
 			(type default)
 		)
 		(uuid "05f63f05-ba2d-4cb9-b20b-f816556143e5")
-	)
-	(wire
-		(pts
-			(xy 138.43 62.23) (xy 138.43 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "068f7c4e-f4e2-4cd8-bd98-44e2af7f2bd8")
 	)
 	(wire
 		(pts
@@ -1561,6 +1401,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 57.15) (xy 193.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d02e57d-2711-414f-95ab-3f6931561d8c")
+	)
+	(wire
+		(pts
 			(xy 129.54 68.58) (xy 133.35 68.58)
 		)
 		(stroke
@@ -1578,16 +1428,6 @@
 			(type default)
 		)
 		(uuid "5ffbdba3-4170-4766-b908-832362cca1f6")
-	)
-	(wire
-		(pts
-			(xy 138.43 68.58) (xy 140.97 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60cd097c-59fa-4911-abd1-f48535acedd3")
 	)
 	(wire
 		(pts
@@ -1641,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 68.58) (xy 138.43 68.58)
+			(xy 133.35 68.58) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3105,6 +2945,17 @@
 		)
 		(uuid "76b2ac09-4cd4-4671-94a5-6b75cb0a2872")
 	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 193.04 57.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9edc2538-4952-49b8-a24b-d2eafe867359")
+	)
 	(hierarchical_label "POWER_SAVE"
 		(shape input)
 		(at 168.91 91.44 180)
@@ -3286,7 +3137,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c8f4b8b-81da-48d7-9138-eadd1b76a6a2")
 		(property "Reference" "#FLG03"
 			(at 140.97 64.135 0)
@@ -3299,8 +3149,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 140.97 60.96 0)
+		(property "Value" "+5V"
+			(at 140.97 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4514,84 +4364,6 @@
 			(project "gateway2"
 				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/68a8a9a9-df38-4ae8-987a-9ba8dce22c75"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 138.43 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef66defa-3ade-4530-8952-d6b094eed1b4")
-		(property "Reference" "#PWR052"
-			(at 138.43 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 138.43 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 138.43 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c70ac699-7e75-4bc4-a664-11fd604de42a")
-		)
-		(instances
-			(project "gateway2"
-				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/68a8a9a9-df38-4ae8-987a-9ba8dce22c75"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
