@@ -3798,7 +3798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Richtek_RT6150:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+		(property "Footprint" "Abracon_AOTA_B201610S:L_0806_2016Metric"
 			(at 203.2 95.25 0)
 			(hide yes)
 			(show_name no)
