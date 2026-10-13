@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 0.0013161349,
-          "min_thickness": 0.25,
+          "min_thickness": 0.15,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [],
@@ -514,6 +514,21 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.8,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -521,7 +536,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/USB_D?"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -661,7 +681,7 @@
         "uuid": "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
       }
     ],
-    "used_designators": "J1-11,CN1,JP1-14,L1-6,P1,CP1-7,C1-44,D1-5,U1-10,SW1-2,RN1-7,#FLG1-21,Y1-2,#PWR1-83,H1-4,R1-41",
+    "used_designators": "Y1-2,#PWR1-83,#FLG1-21,R1-41,JP1-14,H1-4,CP1-7,J1-11,CN1,L1-6,P1,C1-44,D1-5,U1-10,SW1-2,RN1-7",
     "variants": []
   },
   "sheets": [
@@ -678,16 +698,8 @@
       "Power"
     ],
     [
-      "2270f938-9e88-4822-9195-66f8ec9fd89f",
-      "BrickletPort3"
-    ],
-    [
       "fe7ca88c-2b6f-471d-ace9-d3d6a951e95f",
       "BrickletPort2"
-    ],
-    [
-      "48086788-2dae-4fa8-b688-a98b4725ecdb",
-      "BrickletPort1"
     ]
   ],
   "text_variables": {},

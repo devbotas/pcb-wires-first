@@ -2388,7 +2388,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "WIZnet_W6300:W6300-Q"
+			(property "Footprint" "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
 				(at 10.16 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2443,7 +2443,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*W6300-Q*"
+			(property "ki_fp_filters" "*LQFP*48*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8153,7 +8153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WIZnet_W6300:W6300-Q"
+		(property "Footprint" "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
 			(at 220.98 92.71 0)
 			(hide yes)
 			(show_name no)
