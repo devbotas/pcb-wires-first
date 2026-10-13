@@ -2025,7 +2025,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1795caca-c8c3-4603-9333-49c929c73dcf")
+			(uuid "ea4d75bd-066d-4cd2-8670-233b6ea2e029")
 			(effects
 				(font
 					(size 1 1)
@@ -2362,7 +2362,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C42"
-			(at 0 -1.43 0)
+			(at -0.05 1.5 0)
 			(layer "F.SilkS")
 			(uuid "fb424f9e-147a-4df2-8c36-54609db62751")
 			(effects
@@ -3578,7 +3578,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53aedda8-4dc9-47f1-a655-aba5eaeeeb03")
+			(uuid "0b5596d1-2703-4d0e-9b80-6c9f139ed2dd")
 			(effects
 				(font
 					(size 1 1)
@@ -3739,7 +3739,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2cef4668-7be8-43c0-8037-5ddc833f3892")
+			(uuid "9c65aa30-8074-4ec8-8646-eeb964eaee93")
 			(effects
 				(font
 					(size 1 1)
@@ -4871,7 +4871,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "286d1fb4-3361-48a4-aca9-83e110ba006e")
+			(uuid "ee276f9c-f764-4e05-84be-61a021f7c1b8")
 			(effects
 				(font
 					(size 1 1)
@@ -5081,7 +5081,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "192407d4-ba69-4ac9-ba0d-44ba8e513948")
+			(uuid "63ad16fc-91b9-47f8-a7d8-f93e9f4d61c7")
 			(effects
 				(font
 					(size 1 1)
@@ -7545,7 +7545,7 @@
 		(descr "DHVQFN, 14 Pin (JEDEC MO-241/VAA, https://assets.nexperia.com/documents/package-information/SOT762-1.pdf)")
 		(tags "DHVQFN NoLead")
 		(property "Reference" "U8"
-			(at 0 -2.8 0)
+			(at 2.7 2.2875 0)
 			(layer "F.SilkS")
 			(uuid "e3b60739-9ba3-4819-87c1-4b757300fcbc")
 			(effects
@@ -7593,7 +7593,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd0f6cb9-0e27-4e45-88b3-66ef3578fe86")
+			(uuid "2ed65bb3-15ca-4e06-b44c-707223e294af")
 			(effects
 				(font
 					(size 1 1)
@@ -8096,17 +8096,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/Models/74AHC125BQ,115.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -10365,7 +10354,7 @@
 			)
 		)
 	)
-	(footprint "Littelfuse_CK_PTS815:SW_SPST_CK_PTS815_Sx250SMTR_LFS"
+	(footprint "Button_Switch_SMD:SW_SPST_CK_PTS815_Sx250SMTR_LFS"
 		(layer "F.Cu")
 		(uuid "966bfd26-3f28-42f3-a348-8bdff8cb69d7")
 		(at 148.3 60.55)
@@ -10552,19 +10541,21 @@
 				)
 			)
 		)
-		(pad "1" smd rect
+		(pad "1" smd roundrect
 			(at -2.25 -1.075)
 			(size 1 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "2fbcb7e2-f41d-4082-b20a-4bae62de06bb")
 		)
-		(pad "1" smd rect
+		(pad "1" smd roundrect
 			(at 2.25 -1.075)
 			(size 1 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "1_1")
 			(pintype "passive")
@@ -10591,7 +10582,7 @@
 			(uuid "24abd17e-1c70-4bbb-ada9-3280283b247d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Littelfuse_CK_PTS815_KiCad_Library/Littelfuse_CK_PTS815.3dshapes/SW_SPST_CK_PTS815_Sx250SMTR_LFS.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_CK_PTS815_Sx250SMTR_LFS.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10658,7 +10649,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0cb0f458-e73d-4ece-b835-cfd341e8c056")
+			(uuid "bb7c49b7-4e0f-4aa2-8be3-433c431c4b15")
 			(effects
 				(font
 					(size 1 1)
@@ -14362,26 +14353,15 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/Models/RJ45_Kycon_G7LX-A88S7-BP-GY_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
-	(footprint "Richtek_RT6150:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+	(footprint "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
 		(layer "F.Cu")
 		(uuid "c823e4a9-a862-443a-97e4-c42b6a6592a6")
 		(at 159.025 66.1)
-		(descr "Richtek RT6150AGQW, WDFN-10L 3x3mm P0.5mm, exposed-pad land pattern 1.8x2.5mm; copied from KiCad stock WDFN-10 footprint")
+		(descr "WDFN, 10 Pin (https://www.onsemi.com/pdf/datasheet/nis5420-d.pdf)")
 		(tags "WDFN NoLead")
 		(property "Reference" "U3"
-			(at 3.175 -0.7 0)
+			(at 0 -2.45 0)
 			(layer "F.SilkS")
 			(uuid "0958603b-ce0d-43e4-aa22-c84238faf4f7")
 			(effects
@@ -14429,7 +14409,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5675009b-e107-4039-b52f-bf4a72dfd450")
+			(uuid "8e5a8fea-d1ab-49fe-b338-0d73b5c5e8f6")
 			(effects
 				(font
 					(size 1 1)
@@ -14444,7 +14424,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "6" "7" "8" "3" "9" "5" "11" "1" "10" "2" "4")
+				(pins "8" "5" "6" "7" "3" "9" "11" "1" "10" "2" "4")
 			)
 		)
 		(attr smd)
@@ -14804,7 +14784,7 @@
 			(uuid "6708a5e4-e006-4637-ad75-c8c63b4417fc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Richtek_RT6150_KiCad_Library/Richtek_RT6150.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15079,17 +15059,6 @@
 			(uuid "7ee06b89-ac6a-44a3-ab33-5768532ab1ae")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Models/CA064X104M8RACTU.step"
-			(offset
-				(xyz 1.5 0.8 0)
-			)
-			(scale
-				(xyz 1 1 0.8)
-			)
-			(rotate
-				(xyz -0 -0 -90)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -16366,7 +16335,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02dfc000-ffcc-4919-aacd-07cd77d38435")
+			(uuid "fe306dfe-0f6a-4c11-bc3a-abf7eab3955f")
 			(effects
 				(font
 					(size 1 1)
@@ -17992,7 +17961,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "3.3µ"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "2f4f7758-ddc1-41e5-af11-30420fbc123f")
@@ -19157,7 +19126,7 @@
 			)
 		)
 	)
-	(footprint "Littelfuse_CK_PTS815:SW_SPST_CK_PTS815_Sx250SMTR_LFS"
+	(footprint "Button_Switch_SMD:SW_SPST_CK_PTS815_Sx250SMTR_LFS"
 		(layer "F.Cu")
 		(uuid "f6cceb4a-fe70-469b-a1f8-1f7e126abb63")
 		(at 134.475 60.1)
@@ -19344,19 +19313,21 @@
 				)
 			)
 		)
-		(pad "1" smd rect
+		(pad "1" smd roundrect
 			(at -2.25 -1.075)
 			(size 1 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "a7c55339-1a63-4070-ae47-221104d4342e")
 		)
-		(pad "1" smd rect
+		(pad "1" smd roundrect
 			(at 2.25 -1.075)
 			(size 1 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "1_1")
 			(pintype "passive")
@@ -19383,7 +19354,7 @@
 			(uuid "636d7136-1757-4b97-b5d8-c2480b66a371")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Littelfuse_CK_PTS815_KiCad_Library/Littelfuse_CK_PTS815.3dshapes/SW_SPST_CK_PTS815_Sx250SMTR_LFS.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_CK_PTS815_Sx250SMTR_LFS.step"
 			(offset
 				(xyz 0 0 0)
 			)

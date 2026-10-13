@@ -1,8 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "WIZnet_W6300")(type "KiCad")(uri "${KIPRJMOD}/WIZnet_W6300_KiCad_Library/WIZnet_W6300.kicad_sym")(options "")(descr "Local WIZnet W6300 symbol library"))
-  (lib (name "Richtek_RT6150")(type "KiCad")(uri "${KIPRJMOD}/Richtek_RT6150_KiCad_Library/Richtek_RT6150.kicad_sym")(options "")(descr "Local Richtek RT6150AGQW symbol library"))
   (lib (name "AVX_Capacitor_Array")(type "KiCad")(uri "${KIPRJMOD}/AVX_Capacitor_Array_KiCad_Library/AVX_Capacitor_Array.kicad_sym")(options "")(descr "Local KYOCERA AVX W3A 0612 capacitor-array library"))
   (lib (name "Nexperia_74AHC125")(type "KiCad")(uri "${KIPRJMOD}/Nexperia_74AHC125_KiCad_Library/Nexperia_74AHC125.kicad_sym")(options "")(descr "Local Nexperia 74AHC125 HVQFN-14 symbol library"))
-  (lib (name "Custom_Passives")(type "KiCad")(uri "${KIPRJMOD}/Custom_Passives_KiCad_Library/Custom_Passives.kicad_sym")(options "")(descr "Local custom passive-component symbol library"))
 )

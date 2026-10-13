@@ -10957,7 +10957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Littelfuse_CK_PTS815:SW_SPST_CK_PTS815_Sx250SMTR_LFS"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_PTS815_Sx250SMTR_LFS"
 			(at 154.94 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11036,7 +11036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Littelfuse_CK_PTS815:SW_SPST_CK_PTS815_Sx250SMTR_LFS"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_PTS815_Sx250SMTR_LFS"
 			(at 154.94 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13100,8 +13100,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
-			(at 219.71 78.3231 0)
+		(property "Value" "3.3µ"
+			(at 216.154 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
