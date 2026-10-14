@@ -5876,6 +5876,46 @@
 		)
 		(uuid "feaf75c1-8966-4de0-b477-32c100117bb7")
 	)
+	(label "ETH_TD_P"
+		(at 191.77 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3025f283-8015-4cfc-81f3-a1f1cd1d35ca")
+	)
+	(label "ETH_TD_N"
+		(at 191.77 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dd71176-bc0c-4435-894d-3bba089e9769")
+	)
+	(label "ETH_RD_P"
+		(at 191.77 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bafe9201-21ab-4cd5-a0ad-05f66a8a5238")
+	)
+	(label "ETH_RD_N"
+		(at 191.77 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c50ff865-0ac5-4811-bdfd-50e017feef7b")
+	)
 	(hierarchical_label "GND_SHIELD"
 		(shape input)
 		(at 43.18 58.42 180)
