@@ -3692,6 +3692,12 @@
 		(uuid "76ef8ea9-5154-40af-8e86-10c3a88cdcef")
 	)
 	(junction
+		(at 219.71 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "034daa06-047b-4f31-9d3d-db384bee21b5")
+	)
+	(junction
 		(at 71.12 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3906,6 +3912,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc41ebc0-7b94-4658-bcf2-50326c36c445")
+	)
+	(junction
+		(at 214.63 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d06ef61f-0f03-4c1b-8f17-0fa6d2338b7f")
 	)
 	(junction
 		(at 119.38 81.28)
@@ -4439,6 +4451,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 27.94) (xy 214.63 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cee74f7-9765-42f6-b0e1-dd8de2d4c935")
+	)
+	(wire
+		(pts
 			(xy 119.38 69.85) (xy 119.38 73.66)
 		)
 		(stroke
@@ -4556,6 +4578,16 @@
 			(type default)
 		)
 		(uuid "5547fc48-d3ee-4b68-854a-0eb143c84319")
+	)
+	(wire
+		(pts
+			(xy 214.63 36.83) (xy 219.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55da5c47-fb54-47db-9a28-c3668acc0099")
 	)
 	(wire
 		(pts
@@ -5349,7 +5381,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 27.94) (xy 214.63 27.94)
+			(xy 220.98 27.94) (xy 219.71 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5466,6 +5498,16 @@
 			(type default)
 		)
 		(uuid "d9a8f4f4-32a2-48b9-a937-7e586abde6e9")
+	)
+	(wire
+		(pts
+			(xy 219.71 27.94) (xy 219.71 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee2a75a-9fda-4ad1-acb8-8d8a1bae1404")
 	)
 	(wire
 		(pts
@@ -8742,6 +8784,87 @@
 			(project "gateway2"
 				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.71 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dbce22f-0ddb-4e18-9ed6-55d17018f5d0")
+		(property "Reference" "C44"
+			(at 215.646 31.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 214.63 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 218.7448 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7d6c077-7318-44df-a008-39f3919e3dd6")
+		)
+		(pin "1"
+			(uuid "c8e1cdc2-d150-47e0-bd05-d8bc37329b6d")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24"
+					(reference "C44")
 					(unit 1)
 				)
 			)
