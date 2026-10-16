@@ -700,7 +700,7 @@
         "uuid": "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
       }
     ],
-    "used_designators": "J1-11,CN1,CP1-7,L1-6,P1,C1-45,D1-5,U1-10,SW1-2,RN1-7,#FLG1-21,#PWR1-83,Y1-2,H1-4,JP1-14,R1-41",
+    "used_designators": "J1-13,CN1,CP1-10,L1-6,P1,C1-49,D1-5,U1-13,SW1-2,RN1-10,#FLG1-21,#PWR1-102,Y1-2,H1-4,JP1-20,R1-47",
     "variants": []
   },
   "sheets": [
@@ -717,8 +717,28 @@
       "Power"
     ],
     [
+      "1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3",
+      "BrickletPort1"
+    ],
+    [
+      "ee8d5931-7b91-4b5d-a321-2afbd5e3d497",
+      "BrickletPort3"
+    ],
+    [
+      "7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb",
+      "BrickletPort4"
+    ],
+    [
+      "b1afb6a5-2b0d-4258-8912-18a25f0a1d75",
+      "BrickletPort5"
+    ],
+    [
       "fe7ca88c-2b6f-471d-ace9-d3d6a951e95f",
       "BrickletPort2"
+    ],
+    [
+      "c4c83759-d241-4b80-89b3-406c38fe39b2",
+      "BrickletPort6"
     ]
   ],
   "text_variables": {},
