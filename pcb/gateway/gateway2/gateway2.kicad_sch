@@ -4906,6 +4906,12 @@
 		(uuid "7135fdb9-4018-457a-a4e9-bd41b012e87b")
 	)
 	(junction
+		(at 387.35 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7256b2e7-201d-4795-a2dc-5989eba3b899")
+	)
+	(junction
 		(at 381 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5012,6 +5018,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebdb54b8-0bdf-473d-872c-f14fdfe0b5ec")
+	)
+	(junction
+		(at 387.35 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed4c3dc3-8d39-4432-b8ec-bbaa2c83e747")
 	)
 	(junction
 		(at 219.71 71.12)
@@ -5879,6 +5891,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 102.87) (xy 393.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555cd145-4d4b-45df-ad36-5952c692e288")
+	)
+	(wire
+		(pts
 			(xy 368.3 101.6) (xy 368.3 102.87)
 		)
 		(stroke
@@ -6379,6 +6401,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 93.98) (xy 393.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a024cb73-4efb-44b7-b102-17a0e8a97ae9")
+	)
+	(wire
+		(pts
 			(xy 55.88 120.65) (xy 58.42 120.65)
 		)
 		(stroke
@@ -6717,6 +6749,16 @@
 		)
 		(uuid "ccaf773f-b3c1-4a20-837f-3258b5298da0")
 	)
+	(wire
+		(pts
+			(xy 393.7 92.71) (xy 387.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3103e4-f431-446f-861b-a7d37da8cd54")
+	)
 	(bus
 		(pts
 			(xy 255.27 170.18) (xy 299.72 170.18)
@@ -6976,6 +7018,16 @@
 			(type default)
 		)
 		(uuid "faa1063f-5933-4d03-aec1-87e24d94c951")
+	)
+	(wire
+		(pts
+			(xy 393.7 101.6) (xy 393.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab1025d-461e-43cc-a7a0-458e7c6d4c14")
 	)
 	(wire
 		(pts
@@ -12361,6 +12413,87 @@
 			(project "gateway2"
 				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 393.7 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63186ff2-e33b-43ed-974b-776e53298f60")
+		(property "Reference" "C16"
+			(at 389.636 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 388.62 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 392.7348 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 393.7 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "346350a6-11f9-4606-86b3-7999720057c7")
+		)
+		(pin "1"
+			(uuid "3f413fd9-9e03-4a79-b499-bb283186304a")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
+					(reference "C16")
 					(unit 1)
 				)
 			)
