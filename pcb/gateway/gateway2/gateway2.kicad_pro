@@ -657,7 +657,10 @@
         "MOSI",
         "CS_1",
         "CS_2",
-        "CS_3"
+        "CS_3",
+        "CS_4",
+        "CS_5",
+        "CS_6"
       ]
     },
     "connection_grid_size": 50.0,
@@ -700,7 +703,7 @@
         "uuid": "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
       }
     ],
-    "used_designators": "J1-13,CN1,CP1-10,L1-6,P1,C1-49,D1-5,U1-13,SW1-2,RN1-10,#FLG1-21,#PWR1-102,Y1-2,H1-4,JP1-20,R1-47",
+    "used_designators": "Y1-2,#PWR1-102,#FLG1-21,R1-47,JP1-20,H1-4,CP1-10,J1-13,CN1,L1-6,P1,C1-49,D1-5,U1-13,SW1-2,RN1-10",
     "variants": []
   },
   "sheets": [
