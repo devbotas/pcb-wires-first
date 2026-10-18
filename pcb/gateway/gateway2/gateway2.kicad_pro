@@ -116,7 +116,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -703,7 +703,7 @@
         "uuid": "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
       }
     ],
-    "used_designators": "Y1-2,#PWR1-102,#FLG1-21,R1-47,JP1-20,H1-4,CP1-10,J1-13,CN1,L1-6,P1,C1-49,D1-5,U1-13,SW1-2,RN1-10",
+    "used_designators": "D1-5,U1-13,C1-49,RN1-10,SW1-2,Y1-2,#PWR1-102,#FLG1-21,R1-47,JP1-20,H1-4,CP1-10,J1-13,CN1,L1-6,P1",
     "variants": []
   },
   "sheets": [
