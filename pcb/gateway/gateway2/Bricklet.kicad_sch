@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "47498be4-1975-451d-8235-b7700280dd47")
 	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(rev "${VERSION}")
+		(company "${COMPANY}")
+	)
 	(lib_symbols
 		(symbol "AVX_Capacitor_Array:C_Array_4x0612"
 			(exclude_from_sim no)

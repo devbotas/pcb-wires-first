@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${VERSION}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -566,7 +566,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "output",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -703,7 +703,7 @@
         "uuid": "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
       }
     ],
-    "used_designators": "D1-5,U1-13,C1-49,RN1-10,SW1-2,Y1-2,#PWR1-102,#FLG1-21,R1-47,JP1-20,H1-4,CP1-10,J1-13,CN1,L1-6,P1",
+    "used_designators": "J1-13,CN1,CP1-10,P1,L1-6,C1-49,D1-5,U1-13,RN1-10,SW1-2,Y1-2,#PWR1-102,#FLG1-21,R1-47,JP1-20,H1-4",
     "variants": []
   },
   "sheets": [
@@ -744,7 +744,11 @@
       "BrickletPort6"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "COMPANY": "devbotas",
+    "TITLE": "Gateway2",
+    "VERSION": "0.5.0"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "project": "gateway2.kicad_pro",
+  "current": "2026-10-19_0925",
+  "runs": {
+    "2026-10-19_0925": {
+      "source_hashes": {
+        "gateway2.kicad_sch": "sha256:d9e9aaa1dbb5bb51bb10fb51c85754446cee6deb8b199f6dc3b6b75d779fbc6f",
+        "gateway2.kicad_pcb": "sha256:62b758d9050fb4fda54d8c0d833a187f904e201edbb17a0eb70b0318dbee98a5",
+        "schematic.json": "sha256:b2c353c088d402535ac74b007daeb771484d748576b589a36b0a5148e04664e7",
+        "pcb.json": "sha256:3eb04588b1d16cc0781316552267f16d82dd05c6cb5bf32691dbbb8241c9397e"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json",
+        "gerber": "gerber.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py gateway2.kicad_sch"
+      },
+      "generated": "2026-10-19T09:26:09+03:00",
+      "pinned": false
+    }
+  }
+}
