@@ -3045,10 +3045,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b07f652-77db-4c81-9e7e-fff436da788c")
 		(property "Reference" "C41"
-			(at 172.72 73.6599 0)
+			(at 164.846 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3059,7 +3058,7 @@
 			)
 		)
 		(property "Value" "22μ/6.3V"
-			(at 172.72 76.1999 0)
+			(at 163.322 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3758,7 +3757,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c701d16-b5af-4418-9cc0-b815ca800832")
 		(property "Reference" "C37"
 			(at 224.79 88.8999 0)
@@ -3772,7 +3770,7 @@
 			)
 		)
 		(property "Value" "22μ/6.3V"
-			(at 224.79 91.4399 0)
+			(at 230.124 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4362,7 +4360,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c129d3d3-0a54-47b3-9c81-03dc55434e95")
 		(property "Reference" "C40"
 			(at 177.8 73.6599 0)
@@ -4376,7 +4373,7 @@
 			)
 		)
 		(property "Value" "22μ/6.3V"
-			(at 177.8 76.1999 0)
+			(at 173.228 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
