@@ -707,7 +707,7 @@
         "uuid": "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
       }
     ],
-    "used_designators": "#FLG1-21,#PWR1-102,C1-49,CN1,CP1-10,D1-5,H1-4,J1-13,JP1-20,L1-6,P1,R1-47,RN1-10,SW1-2,U1-13,Y1-2",
+    "used_designators": "#FLG1-21,#PWR1-107,C1-49,CN1,CP1-10,D1-7,H1-4,J1-13,JP1-20,L1-6,P1,R1-47,RN1-10,SW1-2,TP1,U1-13,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -751,7 +751,7 @@
   "text_variables": {
     "COMPANY": "devbotas",
     "TITLE": "Gateway2",
-    "VERSION": "0.5.0"
+    "VERSION": "0.6.0"
   },
   "tuning_profiles": {
     "meta": {
