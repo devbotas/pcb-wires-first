@@ -10265,7 +10265,7 @@
 		(uuid "27d7c1ae-2d9b-4824-8f99-dc0b931b00e1")
 	)
 	(label "MISO"
-		(at 240.03 191.77 0)
+		(at 240.03 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10405,7 +10405,7 @@
 		(uuid "8e571414-d95b-40cf-adc7-317418836b72")
 	)
 	(label "MOSI"
-		(at 240.03 184.15 0)
+		(at 240.03 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
