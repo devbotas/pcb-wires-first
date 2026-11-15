@@ -4907,7 +4907,7 @@
 		)
 		(uuid "5381b6c6-3ce4-4ccc-bd70-34e89e24fc8c")
 	)
-	(text "1. Need polarized inductor symbol.\n2. Need 0806 (m2016) inductor footprint."
+	(text "1. Need polarized inductor symbol.\n2. Need 0806 (m2016) inductor footprint.\n3. Add separate UART output."
 		(exclude_from_sim no)
 		(at 170.18 38.608 0)
 		(effects

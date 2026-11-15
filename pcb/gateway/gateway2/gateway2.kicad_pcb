@@ -35438,19 +35438,6 @@
 		(layer "Edge.Cuts")
 		(uuid "7c9c089a-f2f1-45ed-9cce-685025f04f0f")
 	)
-	(gr_text "Notes for vNext:\n74H has no mark"
-		(at 185.5 68.45 0)
-		(layer "F.Cu")
-		(uuid "107a419c-4336-4d58-96ea-8690cb779fb8")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Wires-first ${TITLE}\n${VERSION}"
 		(at 149.25 94.705 0)
 		(layer "F.SilkS")
