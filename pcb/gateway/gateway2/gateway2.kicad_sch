@@ -5308,6 +5308,12 @@
 		(uuid "c5a9a813-0774-4e48-aa24-45bac6daed39")
 	)
 	(junction
+		(at 176.53 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c65d8f83-79a0-47b2-beff-31e1d2665e13")
+	)
+	(junction
 		(at 368.3 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5378,6 +5384,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2a92619-a5ad-463c-bf0a-f651880cc87a")
+	)
+	(junction
+		(at 176.53 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f598c3ae-578b-4687-a2d7-7715e2965c56")
 	)
 	(junction
 		(at 361.95 92.71)
@@ -6230,7 +6242,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 115.57) (xy 186.69 115.57)
+			(xy 175.26 115.57) (xy 176.53 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6297,6 +6309,16 @@
 			(type default)
 		)
 		(uuid "2c5313b8-e002-471a-bcc5-83b1cbe371c5")
+	)
+	(wire
+		(pts
+			(xy 176.53 115.57) (xy 186.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d126b36-09b3-4f17-8cd2-dafc0432b2d4")
 	)
 	(wire
 		(pts
@@ -6617,6 +6639,16 @@
 			(type default)
 		)
 		(uuid "535bc5fa-6679-41e9-8b96-ad64d20a1a2c")
+	)
+	(wire
+		(pts
+			(xy 176.53 118.11) (xy 186.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54891cea-37e3-46d8-9e51-fc98482735e6")
 	)
 	(wire
 		(pts
@@ -7140,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 118.11) (xy 186.69 118.11)
+			(xy 175.26 118.11) (xy 176.53 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7300,7 +7332,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 118.11) (xy 177.8 118.11)
+			(xy 58.42 118.11) (xy 167.64 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7610,7 +7642,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 115.57) (xy 177.8 115.57)
+			(xy 58.42 115.57) (xy 167.64 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11896,6 +11928,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 176.53 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13a484ed-7a97-432a-bea8-6d96ab8ee42c")
+		(property "Reference" "TP19"
+			(at 179.832 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D-"
+			(at 184.912 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 181.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 176.53 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b84d87b6-5981-4b4f-b079-c9a23bfb4991")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 240.03 257.81 0)
 		(unit 1)
@@ -14603,7 +14713,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 115.57 90)
+		(at 171.45 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14613,7 +14723,7 @@
 		(dnp no)
 		(uuid "5236c893-dbea-49ff-94b8-d4910a7f045f")
 		(property "Reference" "R4"
-			(at 181.61 113.538 90)
+			(at 171.45 113.538 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14623,7 +14733,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 181.61 115.57 90)
+			(at 171.45 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14633,7 +14743,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.61 117.348 90)
+			(at 171.45 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14644,7 +14754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 115.57 0)
+			(at 171.45 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14655,7 +14765,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 115.57 0)
+			(at 171.45 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15150,6 +15260,84 @@
 			(project "gateway2"
 				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 176.53 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69cb33ba-e695-49d0-a810-fd71e4f5ad21")
+		(property "Reference" "TP20"
+			(at 179.832 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D+"
+			(at 184.912 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 181.61 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 176.53 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c98511a-aef3-4b2d-9d2d-f4b8cc401424")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -19405,7 +19593,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 118.11 90)
+		(at 171.45 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19415,7 +19603,7 @@
 		(dnp no)
 		(uuid "eafdaa05-18f7-4eba-8986-a0d41c06ee42")
 		(property "Reference" "R5"
-			(at 181.61 120.142 90)
+			(at 171.45 120.142 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19425,7 +19613,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 181.61 118.11 90)
+			(at 171.45 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19435,7 +19623,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.61 119.888 90)
+			(at 171.45 119.888 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19446,7 +19634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 118.11 0)
+			(at 171.45 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19457,7 +19645,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 118.11 0)
+			(at 171.45 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
