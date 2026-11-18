@@ -5098,6 +5098,12 @@
 		(uuid "fa382c40-3f3d-44bc-b7ee-acf334955671")
 	)
 	(junction
+		(at 162.56 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c34d82e-ca65-491d-9f93-f8e094123d8a")
+	)
+	(junction
 		(at 368.3 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5144,6 +5150,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ac39cee-ce3f-4b7a-af57-69de830eabcf")
+	)
+	(junction
+		(at 162.56 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4af9aa9a-cc40-43ae-8ad5-b3748c6ab5f1")
 	)
 	(junction
 		(at 58.42 118.11)
@@ -6342,7 +6354,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 125.73) (xy 177.8 125.73)
+			(xy 160.02 125.73) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6952,6 +6964,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 125.73) (xy 177.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76215584-ef55-4ac6-86a9-e37a36abdcbc")
+	)
+	(wire
+		(pts
 			(xy 157.48 156.21) (xy 158.75 156.21)
 		)
 		(stroke
@@ -7229,6 +7251,16 @@
 			(type default)
 		)
 		(uuid "96061ed3-606d-453d-94b3-81d7f5798b8b")
+	)
+	(wire
+		(pts
+			(xy 162.56 107.95) (xy 168.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9647170b-5584-41bb-8456-df35c4e5d834")
 	)
 	(wire
 		(pts
@@ -7772,7 +7804,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 107.95) (xy 168.91 107.95)
+			(xy 160.02 107.95) (xy 162.56 107.95)
 		)
 		(stroke
 			(width 0)
@@ -12085,6 +12117,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 162.56 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1584a774-0e1a-48a8-ac62-47bdf3ec8747")
+		(property "Reference" "TP21"
+			(at 165.862 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RST"
+			(at 170.942 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 167.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 162.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78f981ce-fd32-4b5c-84ee-07a281b3a66f")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 387.35 97.79 180)
 		(unit 1)
@@ -16120,6 +16230,84 @@
 			(project "gateway2"
 				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 162.56 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "868ac4ec-116c-4f5e-bd77-963fb9ccf4c6")
+		(property "Reference" "TP22"
+			(at 165.862 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 170.942 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 167.64 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 162.56 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11a902ea-4798-4545-a4b2-d22ff9b9d6d5")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
