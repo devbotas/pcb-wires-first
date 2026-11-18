@@ -5170,6 +5170,12 @@
 		(uuid "5ab359e7-cf9f-4d94-aa5f-4cf67e44b13b")
 	)
 	(junction
+		(at 222.25 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6d4606-ae5e-4c43-8a30-25658dd583d4")
+	)
+	(junction
 		(at 355.6 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5204,6 +5210,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77528515-ff59-4b66-a3e5-359710722dc7")
+	)
+	(junction
+		(at 147.32 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77b35a01-1f3d-45bf-9a39-ae812e86974d")
 	)
 	(junction
 		(at 381 92.71)
@@ -5326,6 +5338,12 @@
 		(uuid "d6425235-b905-424a-825b-798420cb3b08")
 	)
 	(junction
+		(at 147.32 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc71b600-4b8b-4b21-8d4e-39f5215b0b94")
+	)
+	(junction
 		(at 214.63 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5366,6 +5384,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa362bc6-809e-479c-8451-cf1439934908")
+	)
+	(junction
+		(at 209.55 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb5e1570-865e-4ed1-93b7-66bb60465e02")
 	)
 	(no_connect
 		(at 186.69 179.07)
@@ -6416,7 +6440,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 166.37) (xy 177.8 166.37)
+			(xy 134.62 166.37) (xy 147.32 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6726,7 +6750,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 201.93) (xy 209.55 204.47)
+			(xy 209.55 201.93) (xy 209.55 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7146,6 +7170,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 166.37) (xy 177.8 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948075db-fd77-48df-b1bd-9c9e5e9f4d01")
+	)
+	(wire
+		(pts
 			(xy 302.26 204.47) (xy 314.96 204.47)
 		)
 		(stroke
@@ -7236,7 +7270,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 163.83) (xy 177.8 163.83)
+			(xy 134.62 163.83) (xy 147.32 163.83)
 		)
 		(stroke
 			(width 0)
@@ -7296,6 +7330,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 163.83) (xy 177.8 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5335aa-f533-45e9-ba51-8ff107ca5dfa")
+	)
+	(wire
+		(pts
 			(xy 393.7 93.98) (xy 393.7 92.71)
 		)
 		(stroke
@@ -7343,6 +7387,16 @@
 			(type default)
 		)
 		(uuid "a5ccfc8f-f4e5-4a20-8484-d1e9f6b10953")
+	)
+	(wire
+		(pts
+			(xy 209.55 208.28) (xy 209.55 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a695bdcc-2c05-4466-b101-2c27375bb9f3")
 	)
 	(wire
 		(pts
@@ -10951,6 +11005,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 147.32 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03a208b7-b4d8-4a0c-8de8-4a9ce29de785")
+		(property "Reference" "TP17"
+			(at 150.622 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWCLK"
+			(at 155.702 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 152.4 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 147.32 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cfd40db-bcf1-44ce-a86d-ab306e77034c")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 57.15 0)
 		(unit 1)
@@ -12721,6 +12853,84 @@
 			(project "gateway2"
 				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 147.32 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35191264-86e4-461d-9ddd-ef10a549d004")
+		(property "Reference" "TP18"
+			(at 150.622 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWIO"
+			(at 155.702 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 147.32 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e1f79f0-45c5-45cc-a2c3-d20dc76e2b38")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -15651,7 +15861,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 204.47 0)
+		(at 209.55 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15662,7 +15872,7 @@
 		(fields_autoplaced yes)
 		(uuid "82723683-5810-4d00-b12e-27179bb4cc57")
 		(property "Reference" "#PWR023"
-			(at 209.55 210.82 0)
+			(at 209.55 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15673,7 +15883,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 209.55 0)
+			(at 209.55 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15683,7 +15893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 204.47 0)
+			(at 209.55 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15694,7 +15904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 204.47 0)
+			(at 209.55 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15705,7 +15915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 204.47 0)
+			(at 209.55 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16373,6 +16583,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 222.25 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b66de2e-8efc-46b5-9325-a1df5f587d6d")
+		(property "Reference" "TP14"
+			(at 225.298 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1V1"
+			(at 230.378 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 227.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 222.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8e19de2-f9c1-4506-84e2-094ad7905ff8")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 254 95.25 180)
 		(unit 1)
@@ -16614,6 +16902,84 @@
 			(project "gateway2"
 				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 209.55 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1be7b4d-0c48-4d92-b31a-5e98ed0e69c2")
+		(property "Reference" "TP15"
+			(at 212.852 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.948 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 214.63 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 209.55 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c37a8a4b-4824-4a48-b7a1-f9e7935c6fd5")
+		)
+		(instances
+			(project "gateway2"
+				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
