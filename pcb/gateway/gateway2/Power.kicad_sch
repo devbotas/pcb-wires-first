@@ -1296,6 +1296,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Took this design from RPi Pico modules"
+		(exclude_from_sim no)
+		(at 36.576 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6be73a34-e86a-4216-985d-0e6a9cb27929")
+	)
 	(junction
 		(at 171.45 91.44)
 		(diameter 0)
