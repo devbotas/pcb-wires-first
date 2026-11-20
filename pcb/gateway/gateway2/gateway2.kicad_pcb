@@ -205,16 +205,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0f98a0ba-2fbd-469f-9807-c38cf851e97b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/0b07f652-77db-4c81-9e7e-fff436da788c")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -352,16 +358,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ded4cb78-d324-4def-8c07-62aa8d1d4b91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/8dbce22f-0ddb-4e18-9ed6-55d17018f5d0")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -499,16 +511,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f8846296-53cc-46cd-9ef9-1827e83eb56f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/03adeaf1-abe8-42f0-aef2-b693289318ea")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -654,12 +672,6 @@
 		(path "/c4c83759-d241-4b80-89b3-406c38fe39b2/a71ad0f6-9c55-436c-9ff0-cc951f34b3a9")
 		(sheetname "/BrickletPort6/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "1" "7" "2" "6" "3" "5" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -909,32 +921,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1fb94555-01b3-4a88-b52f-df89c53f4e21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*")
 		(path "/ee8d5931-7b91-4b5d-a321-2afbd5e3d497/8d25c2f3-3e1f-4f6c-a3df-60a9da5f3c02")
 		(sheetname "/BrickletPort3/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-			(unit
-				(name "B")
-				(pins "5" "4" "6")
-			)
-			(unit
-				(name "C")
-				(pins "9" "10" "8")
-			)
-			(unit
-				(name "D")
-				(pins "12" "13" "11")
-			)
-			(unit
-				(name "E")
-				(pins "14" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1457,12 +1459,6 @@
 		(path "/fe7ca88c-2b6f-471d-ace9-d3d6a951e95f/a71ad0f6-9c55-436c-9ff0-cc951f34b3a9")
 		(sheetname "/BrickletPort2/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "1" "7" "2" "6" "3" "5" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1712,16 +1708,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d08fb45b-a7fd-41b0-a4f2-b4f9895441d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/255cb8c9-c590-4042-bfef-e83fac0590cd")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1859,32 +1861,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f3c5c677-e282-435f-9250-3836bd66665f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*")
 		(path "/c4c83759-d241-4b80-89b3-406c38fe39b2/8d25c2f3-3e1f-4f6c-a3df-60a9da5f3c02")
 		(sheetname "/BrickletPort6/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-			(unit
-				(name "B")
-				(pins "5" "4" "6")
-			)
-			(unit
-				(name "C")
-				(pins "9" "10" "8")
-			)
-			(unit
-				(name "D")
-				(pins "12" "13" "11")
-			)
-			(unit
-				(name "E")
-				(pins "14" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2399,37 +2391,27 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d3806669-7720-46c1-a62b-b38a3ea69d66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*QFN*10x10mm?P0.4mm?EP3.4x3.4mm*")
 		(path "/3cd27c0e-b228-44d7-911f-4dc224215bd3")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "35" "66" "67" "75" "71" "72" "74" "73" "70" "30" "31" "33" "34"
-					"49" "52" "53" "54" "55" "56" "57" "58" "61" "68" "59" "69" "15" "24"
-					"29" "5" "41" "50" "76" "60" "62" "81" "64" "63" "65" "10" "51" "32"
-					"77" "78" "79" "80" "1" "2" "3" "4" "6" "7" "8" "9" "11" "12" "13" "14"
-					"16" "17" "18" "19" "20" "21" "22" "23" "25" "26" "27" "28" "36" "37"
-					"38" "39" "40" "42" "43" "44" "45" "46" "47" "48"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -5.11 -5.11)
-			(end -4.16 -5.11)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "46c07ffd-5e1a-415e-aea2-7fb5678c1150")
-		)
-		(fp_line
 			(start -5.11 -4.16)
-			(end -5.11 -5.11)
+			(end -5.11 -4.87)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2446,6 +2428,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b4c1e889-4fe6-48fa-bb72-7e848f0e72a8")
+		)
+		(fp_line
+			(start -4.813241 -5.11)
+			(end -4.16 -5.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46c07ffd-5e1a-415e-aea2-7fb5678c1150")
 		)
 		(fp_line
 			(start -4.16 5.11)
@@ -2499,7 +2491,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -5.61 -3.8) (xy -5.94 -3.56) (xy -5.94 -4.04)
+				(xy -5.11 -5.11) (xy -5.35 -5.44) (xy -4.87 -5.44)
 			)
 			(stroke
 				(width 0.12)
@@ -3670,7 +3662,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "KiLib_Generator" "1=K 2=A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3687,12 +3679,6 @@
 		(path "/33713e12-66e5-4492-8574-ce07e03e0b70")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3889,12 +3875,6 @@
 		(path "/ee8d5931-7b91-4b5d-a321-2afbd5e3d497/a71ad0f6-9c55-436c-9ff0-cc951f34b3a9")
 		(sheetname "/BrickletPort3/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "1" "7" "2" "6" "3" "5" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4148,12 +4128,6 @@
 		(path "/ab571c9b-7001-45e6-b268-04eb33bee5d4")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -4320,16 +4294,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5f8b59e4-c5d6-430a-a82e-fcfcfcf91228")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe7ca88c-2b6f-471d-ace9-d3d6a951e95f/ec75ab3b-6a11-44da-bbb9-27f382c8e53d")
 		(sheetname "/BrickletPort2/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4467,16 +4447,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4cb192c-1bbf-49c4-9ef2-281611244878")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb/a2605e9b-51e6-4e0b-80e7-28b3bc7ee2c7")
 		(sheetname "/BrickletPort4/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "MP")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5001,16 +4987,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7a99fe42-3428-4d6e-805b-b90749d42e30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f3fef3b4-5261-463e-9558-5b3c0ce6e85f")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5148,16 +5140,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8c4936da-7ab6-42a2-9fe8-78fb8b33c431")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2e2fc581-ff35-4ade-889c-c5b7e0e37526")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5295,16 +5293,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "31c7e7fc-245d-4e69-8511-21ee02390cb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/fea6740f-0c9e-4315-98cc-7f3fd1c4861d")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5442,16 +5446,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3c90e2a2-465c-436c-85fd-283d744fbc59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0d1f786a-15c4-41f7-9f9c-b40762e90668")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5589,32 +5599,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f6d94b8c-9d42-4f3f-8884-4eaa9785280c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*")
 		(path "/7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb/8d25c2f3-3e1f-4f6c-a3df-60a9da5f3c02")
 		(sheetname "/BrickletPort4/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-			(unit
-				(name "B")
-				(pins "5" "4" "6")
-			)
-			(unit
-				(name "C")
-				(pins "9" "10" "8")
-			)
-			(unit
-				(name "D")
-				(pins "12" "13" "11")
-			)
-			(unit
-				(name "E")
-				(pins "14" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6129,16 +6129,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "93a231a2-167e-449c-b220-e5909aedf3fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b1afb6a5-2b0d-4258-8912-18a25f0a1d75/ec75ab3b-6a11-44da-bbb9-27f382c8e53d")
 		(sheetname "/BrickletPort5/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6276,16 +6282,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bd405959-fafe-4774-9e40-3f5769bcea60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e3d6e8b2-1b78-4aa8-805c-ae85320c38d5")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6423,16 +6435,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "191765a1-890d-4d28-aa79-aea524978483")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/c129d3d3-0a54-47b3-9c81-03dc55434e95")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6570,16 +6588,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "abeed239-d9a3-4b54-a260-82f7c4f01e2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/01e19fed-e398-4ea4-9859-595b0f71e040")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6717,16 +6741,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dcead13d-becd-4b74-bab8-9e1fae43fa89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3/02525c17-e67c-4adb-bc7f-9ec31a4e2b6e")
 		(sheetname "/BrickletPort1/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6864,16 +6894,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d788c01f-9a10-447e-b4d7-5a0e9b451ee2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/dfa33edd-20f3-414c-9281-51bb8ef4d005")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7011,32 +7047,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fa716cfa-1982-4244-9f27-34178c7c74bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*")
 		(path "/b1afb6a5-2b0d-4258-8912-18a25f0a1d75/8d25c2f3-3e1f-4f6c-a3df-60a9da5f3c02")
 		(sheetname "/BrickletPort5/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-			(unit
-				(name "B")
-				(pins "5" "4" "6")
-			)
-			(unit
-				(name "C")
-				(pins "9" "10" "8")
-			)
-			(unit
-				(name "D")
-				(pins "12" "13" "11")
-			)
-			(unit
-				(name "E")
-				(pins "14" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7551,7 +7577,7 @@
 				)
 			)
 		)
-		(property "MPN" "MPZ1608S121ATDH5 "
+		(property "KiLib_Generator" "MPZ1608S121ATDH5 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7568,12 +7594,6 @@
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/a583f4d9-cbfa-4835-b894-cce786db35c4")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7713,7 +7733,7 @@
 				)
 			)
 		)
-		(property "MPN" "MPZ1608S121ATDH5 "
+		(property "KiLib_Generator" "MPZ1608S121ATDH5 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7730,12 +7750,6 @@
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/f684ed5c-5869-41c1-810f-fe307a69f86e")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7875,16 +7889,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c2bf6a9a-df5d-40ee-98f2-fcbfb0bebbe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/fe7ca88c-2b6f-471d-ace9-d3d6a951e95f/a2605e9b-51e6-4e0b-80e7-28b3bc7ee2c7")
 		(sheetname "/BrickletPort2/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "MP")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8409,16 +8429,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cedae1a1-29e2-4452-b089-b7a2513dfae9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b8343716-c2fc-48ec-b86d-c905121383c5")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8556,16 +8582,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1340086f-9da3-4181-b9b2-01c5f2d855dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/790b0570-930e-4bdc-856c-22bf133eaedf")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8703,16 +8735,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8306e425-2d9d-4f02-bf0f-b6a5c26c8bb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/aa516b75-7b62-4222-9a1a-3ed2c8c3b6bd")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8850,7 +8888,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "KiLib_Generator" "1=K 2=A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8867,12 +8905,6 @@
 		(path "/9b6e77e6-8e8b-4edb-a853-4486b8add0f4")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9061,16 +9093,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6f79f7e3-939f-4e35-bc5c-322385e92c7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/ee8d5931-7b91-4b5d-a321-2afbd5e3d497/a2605e9b-51e6-4e0b-80e7-28b3bc7ee2c7")
 		(sheetname "/BrickletPort3/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "MP")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9595,7 +9633,7 @@
 				)
 			)
 		)
-		(property "MPN" "MPZ1608S121ATDH5 "
+		(property "KiLib_Generator" "MPZ1608S121ATDH5 "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9612,12 +9650,6 @@
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/3d8ec209-01b7-4b6f-9bda-a1a50abde443")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9757,16 +9789,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0b053804-c1d4-409e-8f23-0589e1d5f3c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/a26a1a49-f514-453e-b0d1-cc7a339924d0")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9904,16 +9942,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "89d13282-53cf-4bbb-a039-1bfe5ba6b821")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/aa4e27bd-f61d-4f22-a288-2c1f7dcc9b94")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10051,16 +10095,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d34fbe36-38be-43f9-8364-8686edd60529")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c4c83759-d241-4b80-89b3-406c38fe39b2/02525c17-e67c-4adb-bc7f-9ec31a4e2b6e")
 		(sheetname "/BrickletPort6/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10219,12 +10269,6 @@
 		(path "/c4c83759-d241-4b80-89b3-406c38fe39b2/0b6c3a06-95fc-4367-8648-26f043f88823")
 		(sheetname "/BrickletPort6/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10463,16 +10507,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e308a7e6-4329-4f64-9423-a393bfbca0a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0f9cdbd1-d6c3-483a-9741-3405adc2b7de")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10610,16 +10660,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cc6cc1bb-d682-4b45-b134-d8bd4d67e6bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b1afb6a5-2b0d-4258-8912-18a25f0a1d75/02525c17-e67c-4adb-bc7f-9ec31a4e2b6e")
 		(sheetname "/BrickletPort5/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10757,16 +10813,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4cde1b1d-4e30-466a-84fb-4eead0aeaec3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/1d33c01b-8e6f-4cf7-aece-3d65cfc596ef")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10904,16 +10966,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d4ccaf19-34ce-4c0d-a3cc-26305e8cd567")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c4c83759-d241-4b80-89b3-406c38fe39b2/ec75ab3b-6a11-44da-bbb9-27f382c8e53d")
 		(sheetname "/BrickletPort6/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11051,16 +11119,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "db4528a5-47eb-45b1-ae4e-be5819066d85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/ef13c5d7-18cc-4dd2-8d2a-d2f5b49f8afd")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11198,16 +11272,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "be527c63-0d18-48b5-8d6b-a63e045719fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/57e05631-7802-4fce-95c2-2b5df793db30")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11345,16 +11425,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "abc27f0f-02c7-4469-bb77-2c3513032693")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/2ba659c2-437e-4606-aa00-57f0dadc975f")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11492,16 +11578,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "86c4c887-fcd1-4014-a04a-716ce4779305")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/f5daca2a-5aa7-4dbc-aaa1-2bb1975a82d0")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11639,7 +11731,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "KiLib_Generator" "1=K 2=A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11656,12 +11748,6 @@
 		(path "/95453a4d-fcda-4aef-9fb5-e26a0abeef03")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11850,16 +11936,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7960da0c-67d1-4113-84f4-972928e1f8c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/250e7761-7aca-4172-8999-df5fdd0bad45")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12005,12 +12097,6 @@
 		(path "/1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3/a71ad0f6-9c55-436c-9ff0-cc951f34b3a9")
 		(sheetname "/BrickletPort1/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "1" "7" "2" "6" "3" "5" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12260,16 +12346,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a5cf3f43-3d5b-4ed6-ab2b-87732a76da3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1910cefb-0abf-468a-a077-d62f95334855")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12407,16 +12499,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "832821cc-a322-423b-815b-ff172a5c36c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/0da065f1-3b01-4702-8011-f3bc4e250028")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12512,6 +12610,7 @@
 		(property "Reference" "TP1"
 			(at 0 -2.25 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "713c2c4a-d80d-4d25-9fe5-306674b236cd")
 			(effects
 				(font
@@ -12522,7 +12621,7 @@
 		)
 		(property "Value" "GND"
 			(at 0 2.25 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "b956cf03-d0b6-4c24-a142-d0866f11a177")
 			(effects
 				(font
@@ -12561,12 +12660,6 @@
 		(path "/0f0c9fbe-8c53-43f4-92ab-60fd00511333")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12760,16 +12853,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ad961814-1b73-4316-85eb-63f915015bc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/dcc3fc43-5112-4fc6-8234-169fd9d8a2b4")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12907,32 +13006,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4fff6d62-245b-4edd-ab50-b2bea60600a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*")
 		(path "/1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3/8d25c2f3-3e1f-4f6c-a3df-60a9da5f3c02")
 		(sheetname "/BrickletPort1/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-			(unit
-				(name "B")
-				(pins "5" "4" "6")
-			)
-			(unit
-				(name "C")
-				(pins "9" "10" "8")
-			)
-			(unit
-				(name "D")
-				(pins "12" "13" "11")
-			)
-			(unit
-				(name "E")
-				(pins "14" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13447,16 +13536,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6fa624db-f563-4190-8fae-786a8ac9091e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/c4c83759-d241-4b80-89b3-406c38fe39b2/a2605e9b-51e6-4e0b-80e7-28b3bc7ee2c7")
 		(sheetname "/BrickletPort6/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "MP")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13981,16 +14076,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e8a7bd3-f60e-48a2-9f2d-bfc4acbc9089")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e528bcca-5277-49e8-b908-fc5e2366d2d8")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14128,16 +14229,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5caf3d2a-3403-4e17-9e1b-eeab5bce9a1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/051d91e9-0c88-47d4-b25d-e94c303116bb")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14283,12 +14390,6 @@
 		(path "/b1afb6a5-2b0d-4258-8912-18a25f0a1d75/a71ad0f6-9c55-436c-9ff0-cc951f34b3a9")
 		(sheetname "/BrickletPort5/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "1" "7" "2" "6" "3" "5" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14542,12 +14643,6 @@
 		(path "/0d7cf8ab-d155-40f5-91db-ff905ca22ab9")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -14714,16 +14809,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7137b703-85a3-41e1-9b59-41d499b3c0f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/f4081430-5766-40c2-9862-a226b43f87d2")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14860,16 +14961,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/JST"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9e5632f1-e337-44ef-8ade-4cb1ff305292")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1646c229-c8c0-4244-af7c-c18a378202b0")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15335,16 +15442,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cb9191c5-ed92-4150-ad22-f05a9fd496fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5236c893-dbea-49ff-94b8-d4910a7f045f")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15482,16 +15595,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c1638543-fbee-42b7-9467-456b4ed9004d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/9336c895-98c9-45e3-8eee-136b6f3ee12e")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15629,16 +15748,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e0f40a56-49c3-464e-8985-cbc3a223a61f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe7ca88c-2b6f-471d-ace9-d3d6a951e95f/02525c17-e67c-4adb-bc7f-9ec31a4e2b6e")
 		(sheetname "/BrickletPort2/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15776,16 +15901,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c2b7cde-f076-4280-b030-4f566c9d48fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/8bb7eb49-205d-4590-b8f2-ebc3f0e68a6e")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15923,16 +16054,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aef69912-cd47-41bf-ada5-203032dc462e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/acc51f1d-3ffc-426a-bba3-cbbd56759f49")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16091,12 +16228,6 @@
 		(path "/1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3/0b6c3a06-95fc-4367-8648-26f043f88823")
 		(sheetname "/BrickletPort1/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16335,16 +16466,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "80d58f8f-f16c-4021-a49a-d4e2a1c59b61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/63186ff2-e33b-43ed-974b-776e53298f60")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16503,12 +16640,6 @@
 		(path "/b1afb6a5-2b0d-4258-8912-18a25f0a1d75/0b6c3a06-95fc-4367-8648-26f043f88823")
 		(sheetname "/BrickletPort5/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16747,16 +16878,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "da915d7d-4dfd-4b56-95c0-2d494e4f923d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ad5e425b-75b3-42ef-a807-1d61fcb733bf")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16894,16 +17031,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f9338d63-62d1-4633-8d92-6631c1b51e54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/4aa55221-ac56-436b-a67e-f23d7eb88a52")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17041,16 +17184,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "91786293-df26-4368-b0aa-787c84e5543b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb/02525c17-e67c-4adb-bc7f-9ec31a4e2b6e")
 		(sheetname "/BrickletPort4/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17188,7 +17337,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "KiLib_Generator" "1=K 2=A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17205,12 +17354,6 @@
 		(path "/b1053358-63dc-4033-93d5-dab9b1617c03")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17407,14 +17550,6 @@
 		(path "/e103bec1-d5ac-4a48-a137-c63e86b8937e")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
-					"A6" "B6" "A8" "B8"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17877,12 +18012,6 @@
 		(path "/a88311f2-6268-4b04-9f25-d23650007d6d")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -18049,16 +18178,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cfe79e26-aa32-4ea3-a9e5-0daace550dd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/feb542e9-7d3c-43ab-99a2-8fcdbff62ebc")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18196,16 +18331,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f5dece88-47fa-4bc2-9c52-5e7acc2bf59f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb/ec75ab3b-6a11-44da-bbb9-27f382c8e53d")
 		(sheetname "/BrickletPort4/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18343,16 +18484,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b8cc17bf-5eb0-4dbf-b827-16f2ad1101c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/68b906d8-ad01-4e73-9a5d-852b04812778")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18490,16 +18637,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e1566b0b-6058-4f90-a901-bccfd7c6e25e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3/a2605e9b-51e6-4e0b-80e7-28b3bc7ee2c7")
 		(sheetname "/BrickletPort1/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "MP")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19024,16 +19177,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "562fd1cf-1b7e-4092-8b62-424756e70e35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5d252487-1e5b-4adf-8903-f60d93e17444")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19171,16 +19330,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e468cf79-120c-4a00-888f-0128167b0ca0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/5a07d1fc-2fb4-419a-a248-74123be08922")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19323,12 +19488,6 @@
 		(path "/360af8cc-d808-4ca3-9956-d9d1e88c7e0c")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19559,7 +19718,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "KiLib_Generator" "1=K 2=A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19576,12 +19735,6 @@
 		(path "/b7d257c0-056c-4d68-8cc8-1aaabf6b25cd")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19770,16 +19923,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eac8e5d3-f7d8-49e0-b7ee-0e26cf63e15a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/423d4622-b6f0-46b2-9e8b-02bfdc4f0080")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19925,12 +20084,6 @@
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/e4811b68-0198-4ebe-82d6-ecb3a5ed44d1")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20196,16 +20349,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "efd85ead-dec2-496c-833d-20adf5116749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c045c9cc-0041-451b-8262-c9752ccaa40e")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20343,16 +20502,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "52611083-4cf5-47dd-bac6-9b63874702d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/4ef8b92c-5224-4fe2-a747-fa94d7c7c683")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20490,16 +20655,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4b880409-898e-4067-b0c4-56598caec3de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/1d3815a2-0f6a-41af-9e1d-92bd8a15a0c7")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20636,16 +20807,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "crystal_resonator_oscillator"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0b11682a-8e0b-4f58-a3de-f473f1e2c39b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/2fe4b7fa-b155-4268-942a-60a85812c6bd")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "4" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20806,16 +20983,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8177c26e-3125-407f-96c0-fd9e9bac80c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/af8ccf3f-669c-4bb4-a988-3900b6c8e62c")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20953,16 +21136,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dfb9c653-752e-43d8-892f-211825e368b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/59e3d97d-10ca-4166-b416-21c3e4727ebe")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21100,16 +21289,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a34ef45a-c1f8-4d3f-bf5d-644ed9d398a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3efba2a7-55a3-46a0-aed0-6e93de48ac00")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21268,12 +21463,6 @@
 		(path "/7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb/0b6c3a06-95fc-4367-8648-26f043f88823")
 		(sheetname "/BrickletPort4/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21512,16 +21701,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "577906fe-21b3-42ac-b953-598d93f69f82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0d3ed738-9260-4a45-b73e-797f6a8cfd2d")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21659,16 +21854,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "46674bb9-411d-4525-b3bb-1c72e02ece5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/761e6391-d239-4c9e-8fe6-8a0a78cef2cc")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21806,16 +22007,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2a5fc155-dca4-4322-ad71-4dabf722ade8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/4ba81df7-e4c6-40cf-a66f-4eaee06b2239")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21953,32 +22160,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "33bdd48f-ed04-4bcb-9e90-e69848d1a9cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*")
 		(path "/fe7ca88c-2b6f-471d-ace9-d3d6a951e95f/8d25c2f3-3e1f-4f6c-a3df-60a9da5f3c02")
 		(sheetname "/BrickletPort2/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-			(unit
-				(name "B")
-				(pins "5" "4" "6")
-			)
-			(unit
-				(name "C")
-				(pins "9" "10" "8")
-			)
-			(unit
-				(name "D")
-				(pins "12" "13" "11")
-			)
-			(unit
-				(name "E")
-				(pins "14" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22493,16 +22690,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "80870f96-cad8-4a5b-a741-301c03852889")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3fb138f9-592e-4e45-beec-8ecdadf12592")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22640,16 +22843,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "73804d60-2da1-494f-94c5-b657bcf907b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/95e63a69-bf06-4ef2-b507-a89848f37180")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22787,16 +22996,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0d8ebb32-543d-4678-8368-cfabd3a28459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/a4266efe-27b0-42f1-8826-dc0fd5b537af")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22936,16 +23151,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b5efa84-66f9-43d3-89a9-2d73092bdb1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/f567d5a0-ed4d-4a61-a698-2e73ee88b86b")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23082,16 +23303,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "crystal_resonator_oscillator"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87a460fc-7df5-4a60-9a75-4c7fc717daad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/f5ec38e0-6510-43c1-b641-35d40cbc4c92")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "4" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23252,16 +23479,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "464cffc0-7f1f-4a01-89a2-9189cbd01f3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ef200cf3-005a-4224-896e-8cf65853ee8a")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23399,16 +23632,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "90528271-3761-4dde-9526-b2f774662aad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/963e903f-8841-48b2-a6f1-65a32e6f2bad")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23546,16 +23785,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8869f118-d37e-4b0f-b3e7-4b47ffb20819")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3/ec75ab3b-6a11-44da-bbb9-27f382c8e53d")
 		(sheetname "/BrickletPort1/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23693,16 +23938,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a4ea1a11-1056-4992-8737-e5feb84d9f88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ee8d5931-7b91-4b5d-a321-2afbd5e3d497/02525c17-e67c-4adb-bc7f-9ec31a4e2b6e")
 		(sheetname "/BrickletPort3/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23840,16 +24091,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "71ed49e9-2dd5-412f-9bbe-56b6350f2868")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/b81a000c-9137-471c-a21c-40e778ea454d")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23995,12 +24252,6 @@
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/d2faefa5-b7ec-40b2-913e-b5a658c0ff40")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "14" "13" "12" "11" "1" "4" "2" "3" "7" "6" "5" "8" "10" "9" "SH")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24449,7 +24700,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Richtek"
+		(property "KiLib_Generator" "Richtek"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24466,12 +24717,6 @@
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/b1965892-74d7-44ad-bf22-b0c58379bf2f")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "5" "6" "7" "3" "9" "11" "1" "10" "2" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24913,12 +25158,6 @@
 		(path "/fe7ca88c-2b6f-471d-ace9-d3d6a951e95f/0b6c3a06-95fc-4367-8648-26f043f88823")
 		(sheetname "/BrickletPort2/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25157,16 +25396,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1671a61f-8ca1-455f-ad92-7946f85d2ca1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cecc7782-dcbe-4c1c-b517-db89ebd2a126")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25304,16 +25549,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "08c24b6b-41af-4b87-8e80-37bb5921ce24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ee8d5931-7b91-4b5d-a321-2afbd5e3d497/ec75ab3b-6a11-44da-bbb9-27f382c8e53d")
 		(sheetname "/BrickletPort3/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25451,16 +25702,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b207a927-4185-4268-bfc0-2331e7a43959")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/c8f675a3-9677-4a2c-aa78-16aea2b31286")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25598,16 +25855,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a777472e-02e1-4960-9efa-7047a7ff6a86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "PinHeader?2x05?P1.27mm*")
 		(path "/09f75b45-8acf-4089-a844-98cfbed55b05")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "7" "9" "1" "3" "5" "10" "4" "2" "6" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26227,12 +26490,6 @@
 		(path "/ee8d5931-7b91-4b5d-a321-2afbd5e3d497/0b6c3a06-95fc-4367-8648-26f043f88823")
 		(sheetname "/BrickletPort3/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26479,12 +26736,6 @@
 		(path "/7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb/a71ad0f6-9c55-436c-9ff0-cc951f34b3a9")
 		(sheetname "/BrickletPort4/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "8" "1" "7" "2" "6" "3" "5" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26734,16 +26985,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "620e6812-8c25-404c-a7ba-e47e53c623f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/dec240ea-972f-45ec-a547-2a1528641ea9")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26885,12 +27142,6 @@
 		(path "/9a5b64ad-d620-4a5a-a74e-9f0ab6ab4748")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -27057,7 +27308,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "WIZnet"
+		(property "KiLib_Generator" "WIZnet"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27074,16 +27325,6 @@
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/66c10d08-25a3-4a08-b4af-97ee290588e2")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "46" "45" "30" "29" "32" "33" "34" "35" "37" "38" "39" "40" "41"
-					"42" "43" "44" "8" "3" "16" "31" "18" "9" "47" "17" "15" "6" "48" "14"
-					"7" "49" "24" "36" "10" "13" "2" "1" "5" "4" "19" "20" "21" "22" "23"
-					"12" "11" "25" "26" "27" "28"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28019,16 +28260,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1ec644e7-678c-4140-91b4-425f4a2bdf45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/7c701d16-b5af-4418-9cc0-b815ca800832")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28166,16 +28413,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d9bdf932-45db-4460-ae6c-8cbc62820f90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/b1afb6a5-2b0d-4258-8912-18a25f0a1d75/a2605e9b-51e6-4e0b-80e7-28b3bc7ee2c7")
 		(sheetname "/BrickletPort5/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "MP")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28700,16 +28953,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6eecf961-9349-4164-b897-442e7a5c205e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/6fd32c72-c3cd-497c-a3ee-01808868ddec")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28847,16 +29106,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "643b1a64-04f0-4311-a632-e17fdc7c566e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9128de00-70d7-4a6c-8c61-f12c720075ed")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28994,16 +29259,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24b9c77b-e553-494d-903d-b659c36d5bd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/4f0ed791-fe59-4a95-9850-f35afee9e9f8")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29147,12 +29418,6 @@
 		(path "/94f34edc-d655-4b7f-beb7-40e17c4ac477")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29302,16 +29567,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7a87bc64-3282-4261-9fc7-a549b30eae9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/46e34314-a38e-46bc-b893-e1167181b790")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29449,16 +29720,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "03dd97e8-0b16-43fe-a0b9-ea8ade16be98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/dc276f1e-c288-4fdc-8239-39b5fa1e3f7f")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29596,16 +29873,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d81c9020-ae39-4a56-8a8b-0f0dfc11dcda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/eb469368-dad8-4435-9f26-0ba23e759aff")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29743,16 +30026,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b8fbc52a-e399-431b-8196-83e0df619e9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/74d9d8ae-844c-4305-84e9-0c6706cc810f")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29890,16 +30179,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d45f2333-d70c-4058-8735-0ce4c42e313d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/a6b339d8-d921-408b-bc5f-9a88203e2dfe")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30037,16 +30332,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3557a254-04cc-46cd-9f70-6a8e2dac5c7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/6b711d1c-6df5-49a2-8607-684164384eed")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30184,16 +30485,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7b4c5ccc-64a0-42e9-a2cb-66bf1d485d8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1a5ceb8b-9d2f-478b-8cec-5de10b368e20")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30336,12 +30643,6 @@
 		(path "/34bdeac1-f3c3-4b05-9ec4-6a60e47b7f16")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30572,16 +30873,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a1dadc5c-f0c3-400f-81a0-79541db4d754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/14e9714f-9817-4810-9752-11552051c5dd")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30719,16 +31026,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "08f6026f-1836-438e-ab7e-caf3b0cc018e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/d8b1414a-888e-442c-840b-8a9a4ac733ca")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30866,16 +31179,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fecfe36f-fae3-4986-a878-fe806d01ed6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/6faa9c71-4a2c-45fc-8538-d06bddeb9aba")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31013,16 +31332,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ad013104-ebba-48e6-95a8-77051d4cbc57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/eafdaa05-18f7-4eba-8986-a0d41c06ee42")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31172,12 +31497,6 @@
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/3ebb26f3-7aee-4403-8605-d9099c40dc8a")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31287,12 +31606,6 @@
 		(path "/a468b9a0-5b11-4935-9f82-0506d40ff58b")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31402,12 +31715,6 @@
 		(path "/7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb/dbb96910-6573-4676-aa7f-56101aefefb5")
 		(sheetname "/BrickletPort4/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -31696,12 +32003,6 @@
 		(path "/dc21ea9e-cb62-4356-bd72-3d4ea47b8220")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31811,12 +32112,6 @@
 		(path "/03a208b7-b4d8-4a0c-8de8-4a9ce29de785")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31926,12 +32221,6 @@
 		(path "/ee8d5931-7b91-4b5d-a321-2afbd5e3d497/dbb96910-6573-4676-aa7f-56101aefefb5")
 		(sheetname "/BrickletPort3/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -32220,12 +32509,6 @@
 		(path "/fe7ca88c-2b6f-471d-ace9-d3d6a951e95f/0527b2a2-fc61-4982-ba3f-e82c6391f2bd")
 		(sheetname "/BrickletPort2/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom dnp allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -32501,12 +32784,6 @@
 		(path "/b1afb6a5-2b0d-4258-8912-18a25f0a1d75/0527b2a2-fc61-4982-ba3f-e82c6391f2bd")
 		(sheetname "/BrickletPort5/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom dnp allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -32782,12 +33059,6 @@
 		(path "/84560cdd-aca1-4359-8a6b-8912d9ed695c")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -32897,12 +33168,6 @@
 		(path "/35191264-86e4-461d-9ddd-ef10a549d004")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33012,12 +33277,6 @@
 		(path "/e3e2d3a9-4ff0-46ea-83a6-23b4396b173f")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33127,12 +33386,6 @@
 		(path "/d8ea02c5-d44b-4e05-8eec-245578f9c5a3")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33234,16 +33487,23 @@
 				(justify mirror)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e0129051-7672-4c92-b5a9-a219387b193c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3/348ce4d8-247d-469d-9cdf-e2374d8e8172")
 		(sheetname "/BrickletPort1/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33394,12 +33654,6 @@
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/8a217fea-8096-42ca-871b-109747864b5a")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33509,12 +33763,6 @@
 		(path "/f747df4c-2d5d-4960-b43a-9ba8d02fdbf3")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33624,12 +33872,6 @@
 		(path "/4d84c1d0-8b63-40ec-ac93-a3a8c6b0df62")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33739,12 +33981,6 @@
 		(path "/68a8a9a9-df38-4ae8-987a-9ba8dce22c75/f411afd1-8b0b-4575-90dc-e691b9e474c1")
 		(sheetname "/Power/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33846,16 +34082,23 @@
 				(justify mirror)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "173bdd9a-a249-4986-a196-cbbbfb48c2eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b1afb6a5-2b0d-4258-8912-18a25f0a1d75/348ce4d8-247d-469d-9cdf-e2374d8e8172")
 		(sheetname "/BrickletPort5/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34006,12 +34249,6 @@
 		(path "/a278b076-21e1-4166-b8d0-c689877d5f24/99d8d706-e337-4a86-b7ce-45a0bfb42fb7")
 		(sheetname "/WizNet/")
 		(sheetfile "WizNet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -34121,12 +34358,6 @@
 		(path "/69cb33ba-e695-49d0-a810-fd71e4f5ad21")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -34236,12 +34467,6 @@
 		(path "/1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3/dbb96910-6573-4676-aa7f-56101aefefb5")
 		(sheetname "/BrickletPort1/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -34530,12 +34755,6 @@
 		(path "/9aed4431-7bc7-44a4-84d5-b7c42c9b6170")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -34645,12 +34864,6 @@
 		(path "/155a71b5-7b64-4e8b-b5e6-11c38c695a1b")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -34760,12 +34973,6 @@
 		(path "/7716a814-be3d-4f43-9606-716f21b62d09")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -34875,12 +35082,6 @@
 		(path "/13edf4f7-fa49-4131-bb83-b5bff33bdae8")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -34990,12 +35191,6 @@
 		(path "/9b66de2e-8efc-46b5-9325-a1df5f587d6d")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -35105,12 +35300,6 @@
 		(path "/c4c83759-d241-4b80-89b3-406c38fe39b2/0527b2a2-fc61-4982-ba3f-e82c6391f2bd")
 		(sheetname "/BrickletPort6/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom dnp allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -35386,12 +35575,6 @@
 		(path "/3eddd8ee-6aad-4355-a7db-bee441e3f24b")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -35501,12 +35684,6 @@
 		(path "/c4c83759-d241-4b80-89b3-406c38fe39b2/dbb96910-6573-4676-aa7f-56101aefefb5")
 		(sheetname "/BrickletPort6/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -35795,12 +35972,6 @@
 		(path "/52296b3c-8fe9-48d9-9533-9bd9dc0b1575")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -35902,16 +36073,23 @@
 				(justify mirror)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "faedd7ef-1680-41e9-b298-17e8a18d1601")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ee8d5931-7b91-4b5d-a321-2afbd5e3d497/348ce4d8-247d-469d-9cdf-e2374d8e8172")
 		(sheetname "/BrickletPort3/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36062,12 +36240,6 @@
 		(path "/ee8d5931-7b91-4b5d-a321-2afbd5e3d497/0527b2a2-fc61-4982-ba3f-e82c6391f2bd")
 		(sheetname "/BrickletPort3/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom dnp allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -36343,12 +36515,6 @@
 		(path "/1584a774-0e1a-48a8-ac62-47bdf3ec8747")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -36458,12 +36624,6 @@
 		(path "/13a484ed-7a97-432a-bea8-6d96ab8ee42c")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -36573,12 +36733,6 @@
 		(path "/db517b57-e2e4-45e3-86d5-72c7d2552201")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -36688,12 +36842,6 @@
 		(path "/81addc3f-b480-4f89-8377-32aded6bcfbc")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -36803,12 +36951,6 @@
 		(path "/023dd168-8455-47e2-a357-cbc109f4dd17")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -36918,12 +37060,6 @@
 		(path "/a1be7b4d-0c48-4d92-b31a-5e98ed0e69c2")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -37033,12 +37169,6 @@
 		(path "/d695f557-60d6-42c7-b63a-a5da90274a8b")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -37140,16 +37270,23 @@
 				(justify mirror)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "71651d34-6fb9-479b-a2c8-f37e40c500b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c4c83759-d241-4b80-89b3-406c38fe39b2/348ce4d8-247d-469d-9cdf-e2374d8e8172")
 		(sheetname "/BrickletPort6/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37300,12 +37437,6 @@
 		(path "/fe8260b1-3df8-437b-8fd3-3a11b530918b")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -37415,12 +37546,6 @@
 		(path "/41efd461-7cac-4d15-890b-7191354df249")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -37530,12 +37655,6 @@
 		(path "/fa78a3e0-a38c-4ea2-82a4-816f6f27f379")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -37645,12 +37764,6 @@
 		(path "/b1afb6a5-2b0d-4258-8912-18a25f0a1d75/dbb96910-6573-4676-aa7f-56101aefefb5")
 		(sheetname "/BrickletPort5/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -37939,12 +38052,6 @@
 		(path "/1a2a6d2b-f186-4a83-bcf8-c7562a5e42f3/0527b2a2-fc61-4982-ba3f-e82c6391f2bd")
 		(sheetname "/BrickletPort1/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom dnp allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -38212,16 +38319,23 @@
 				(justify mirror)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "985e525c-483b-4bb6-b595-85db195b7d19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb/348ce4d8-247d-469d-9cdf-e2374d8e8172")
 		(sheetname "/BrickletPort4/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38372,12 +38486,6 @@
 		(path "/fe7ca88c-2b6f-471d-ace9-d3d6a951e95f/dbb96910-6573-4676-aa7f-56101aefefb5")
 		(sheetname "/BrickletPort2/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
@@ -38666,12 +38774,6 @@
 		(path "/7d0a3334-dd8a-4d1a-b7fc-3bec5dc6fccb/0527b2a2-fc61-4982-ba3f-e82c6391f2bd")
 		(sheetname "/BrickletPort4/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
 		(attr exclude_from_bom dnp allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -38947,12 +39049,6 @@
 		(path "/fee966d7-599f-4d17-9023-58a512477db6")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39054,16 +39150,23 @@
 				(justify mirror)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9cb1a7fb-9277-4212-b8ea-4aaf99356401")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fe7ca88c-2b6f-471d-ace9-d3d6a951e95f/348ce4d8-247d-469d-9cdf-e2374d8e8172")
 		(sheetname "/BrickletPort2/")
 		(sheetfile "Bricklet.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39214,12 +39317,6 @@
 		(path "/868ac4ec-116c-4f5e-bd77-963fb9ccf4c6")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39329,12 +39426,6 @@
 		(path "/329fd803-6d18-44b5-941c-33f2a55e19c5")
 		(sheetname "/")
 		(sheetfile "gateway2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39691,7 +39782,7 @@
 		(uuid "7c9c089a-f2f1-45ed-9cce-685025f04f0f")
 	)
 	(gr_text "(c) ${COMPANY}"
-		(at 152.675 101.45 90)
+		(at 153.5 102.4 90)
 		(layer "F.SilkS")
 		(uuid "df8d9d09-7aa8-46cc-8436-28d99dfb72c1")
 		(effects
@@ -39704,7 +39795,7 @@
 		)
 	)
 	(gr_text "W1 ${TITLE}\n${VERSION}"
-		(at 154.9 73.675 90)
+		(at 158.1 72.875 90)
 		(layer "F.SilkS")
 		(uuid "75e35fc7-6a3c-48db-a7c0-c515e7757217")
 		(effects
