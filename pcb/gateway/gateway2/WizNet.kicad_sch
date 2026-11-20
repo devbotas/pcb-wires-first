@@ -3863,6 +3863,12 @@
 		(uuid "1646dc92-0a48-46b1-b348-9b4ea1e445bc")
 	)
 	(junction
+		(at 71.12 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "194d6344-c993-4134-92c7-9b4e709fa0c5")
+	)
+	(junction
 		(at 147.32 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3923,12 +3929,6 @@
 		(uuid "44329032-9c52-42fe-95f5-ae62b2310e43")
 	)
 	(junction
-		(at 54.61 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52735db7-5f4b-48c4-b312-5821c5e1549b")
-	)
-	(junction
 		(at 86.36 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3939,12 +3939,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e1ab123-e71b-482f-87fb-76c378f41216")
-	)
-	(junction
-		(at 71.12 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "658c615c-0f1a-4502-8b78-ab4752ab3fbb")
 	)
 	(junction
 		(at 81.28 173.99)
@@ -3999,6 +3993,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e44740b-3d6a-4861-bf8b-b9a716611035")
+	)
+	(junction
+		(at 54.61 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96aca70f-24c6-451d-a416-8935f4751b73")
 	)
 	(junction
 		(at 123.19 175.26)
@@ -4455,16 +4455,6 @@
 			(type default)
 		)
 		(uuid "266fdf5a-ad29-4893-87c9-716ca4300ff6")
-	)
-	(wire
-		(pts
-			(xy 91.44 173.99) (xy 91.44 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b13b104-4730-4d4d-a5ef-e6b5d46e9025")
 	)
 	(wire
 		(pts
@@ -5388,6 +5378,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 173.99) (xy 71.12 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefff2ef-2c93-4ac6-afa9-75b2dd7a7f45")
+	)
+	(wire
+		(pts
 			(xy 204.47 36.83) (xy 209.55 36.83)
 		)
 		(stroke
@@ -5615,16 +5615,6 @@
 			(type default)
 		)
 		(uuid "d581640f-05fe-4f75-beda-d6947eba3d09")
-	)
-	(wire
-		(pts
-			(xy 54.61 173.99) (xy 71.12 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d62d7a16-9aa6-4054-90ba-29de85f44500")
 	)
 	(wire
 		(pts
@@ -7166,85 +7156,6 @@
 			(project "gateway2"
 				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24"
 					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 91.44 176.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3cb5b526-3c6c-4b98-b1b8-3cc66d5bbcd1")
-		(property "Reference" "#FLG07"
-			(at 91.44 178.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 85.09 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 91.44 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5de18cbd-2354-4f69-8f3f-2916aba67338")
-		)
-		(instances
-			(project "gateway2"
-				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
