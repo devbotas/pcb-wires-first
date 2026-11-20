@@ -19933,7 +19933,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6401666-83f9-4618-88fb-a242e19fca0e")
 		(property "Reference" "#PWR01"
 			(at 33.02 146.05 0)
@@ -19946,14 +19945,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 32.893 144.78 0)
+		(property "Value" "SH_USB"
+			(at 29.718 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -20024,14 +20024,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 278.003 161.29 0)
+		(property "Value" "SH_ETH"
+			(at 280.67 158.5467 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -21966,7 +21967,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6fd6d0a-d41e-473a-ac78-b1276324c4d1")
 		(property "Reference" "#PWR02"
 			(at 72.39 248.92 0)
@@ -21979,14 +21979,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 72.263 247.65 0)
+		(property "Value" "SH_ETH"
+			(at 69.088 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

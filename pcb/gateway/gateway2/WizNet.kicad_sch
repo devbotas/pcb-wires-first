@@ -3965,12 +3965,6 @@
 		(uuid "7e3d8335-328f-435e-a468-cb45a3848bde")
 	)
 	(junction
-		(at 96.52 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e8a5ab1-97e0-4164-9a12-16932252bfc3")
-	)
-	(junction
 		(at 86.36 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4358,16 +4352,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 60.96) (xy 215.9 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1db0ba7a-8fe5-41c6-8fe7-76678a79cd4f")
-	)
-	(wire
-		(pts
 			(xy 43.18 58.42) (xy 55.88 58.42)
 		)
 		(stroke
@@ -4668,16 +4652,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 173.99) (xy 96.52 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c2c0821-aadc-4467-9147-9987b6c7d67e")
-	)
-	(wire
-		(pts
 			(xy 201.93 113.03) (xy 201.93 110.49)
 		)
 		(stroke
@@ -4735,6 +4709,16 @@
 			(type default)
 		)
 		(uuid "55da5c47-fb54-47db-9a28-c3668acc0099")
+	)
+	(wire
+		(pts
+			(xy 215.9 60.96) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560278c0-3b18-4ab9-bba5-1e1d06488b1d")
 	)
 	(wire
 		(pts
@@ -6452,7 +6436,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10a02050-b01f-41ed-8dcc-0c41e183eb46")
 		(property "Reference" "#PWR062"
 			(at 138.43 109.22 0)
@@ -6465,14 +6448,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 138.43 107.95 0)
+		(property "Value" "GND"
+			(at 136.398 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8237,14 +8221,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 223.52 130.81 0)
+		(property "Value" "GND"
+			(at 226.06 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8700,7 +8685,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82ba1520-ba3d-4f17-aafb-36f60b9889c3")
 		(property "Reference" "#PWR037"
 			(at 149.86 109.22 0)
@@ -8713,14 +8697,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 149.86 107.95 0)
+		(property "Value" "GND"
+			(at 148.082 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9002,84 +8987,6 @@
 			(project "gateway2"
 				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 96.52 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9447df53-2dc6-45dd-bfbe-27b56c4e439e")
-		(property "Reference" "#PWR067"
-			(at 96.52 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 96.52 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 96.52 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "714d3973-650b-4934-8117-59082f5a9ddd")
-		)
-		(instances
-			(project "gateway2"
-				(path "/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9582,7 +9489,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b584c296-a637-4ec7-874f-4229c0edb929")
 		(property "Reference" "#PWR039"
 			(at 119.38 109.22 0)
@@ -9595,14 +9501,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 119.38 107.95 0)
+		(property "Value" "GND"
+			(at 117.602 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
