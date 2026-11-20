@@ -70,7 +70,24 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|173600000|75405000|7c9c089a-f2f1-45ed-9cce-685025f04f0f|a8b04b03-65a8-4f49-b4e1-800813c0b4ba",
+          "Board edge, it's fine"
+        ],
+        [
+          "silk_edge_clearance|173600000|84595000|7c9c089a-f2f1-45ed-9cce-685025f04f0f|6df9fb95-c230-48e6-b87b-97f46a3bb819",
+          "Board edge, it's fine"
+        ],
+        [
+          "silk_edge_clearance|96400000|71905000|7c9c089a-f2f1-45ed-9cce-685025f04f0f|2ac3518b-91db-448b-bfb6-9395c0209db0",
+          "Board edge, it's fine"
+        ],
+        [
+          "silk_edge_clearance|96400000|88095000|7c9c089a-f2f1-45ed-9cce-685025f04f0f|d8016667-3910-4a17-b07a-5f7d5819a097",
+          "Board edge, it's fine"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -716,7 +733,7 @@
         "uuid": "1800ee7d-fb6b-47f6-b72a-2ea19411a9d6"
       }
     ],
-    "used_designators": "#FLG1-21,#PWR1-109,C1-49,CN1,CP1-10,D1-7,H1-4,J1-13,JP1-20,L1-6,NT1,P1,R1-47,RN1-10,SW1-2,TP1-35,U1-13,Y1-2",
+    "used_designators": "#FLG1-21,#PWR1-115,C1-49,CN1,CP1-10,D1-7,H1-4,J1-13,JP1-20,L1-6,NT1,P1,R1-47,RN1-10,SW1-2,TP1-35,U1-15,Y1-2",
     "variants": []
   },
   "sheets": [
