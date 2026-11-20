@@ -282,12 +282,12 @@
   "erc": {
     "erc_exclusions": [
       [
-        "multiple_net_names|1066800|914400|be4c9918-4a1a-4bae-bd86-56d5f5d81197|f5b746f7-fca0-4d82-962c-b63148a37f9b|/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24|/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24|/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24",
-        "It's fine."
+        "multiple_net_names|1066800|965200|be4c9918-4a1a-4bae-bd86-56d5f5d81197|e7fab3e3-98b9-44e0-b0c5-b1e5242564aa|/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24|/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24|/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24",
+        ""
       ],
       [
         "multiple_net_names|2235200|1231900|0650bd98-e668-436c-a7a1-455f3159a5ae|825ca684-2322-4843-ab0c-301b9eda2053|/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24|/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24|/1800ee7d-fb6b-47f6-b72a-2ea19411a9d6/a278b076-21e1-4166-b8d0-c689877d5f24",
-        "GNDA and GND is merged in Wiznet boards."
+        "It's fine. Wiznet uses GND evewhere."
       ]
     ],
     "meta": {
